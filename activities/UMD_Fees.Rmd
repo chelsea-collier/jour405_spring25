@@ -34,7 +34,7 @@ umd_fees_pct <- umd_fees |> mutate(pct_change = (`Fall 2024`- `Fall 2021`)/`Fall
 Write a few sentences about what you found in the data. What's the story here?
 
 
-
+UMD fees are increasing, especially student sustainability fees. As a reporter I would want to know what exactly those fees are going toward and what initiatives have cased a need for higher fees. 
 
 
 When you are done, save your work, switch to GitHub Desktop, then add, commit and push your changes to GitHub and submit the URL of the notebook in ELMS.

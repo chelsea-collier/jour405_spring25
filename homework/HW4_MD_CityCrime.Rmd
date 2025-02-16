@@ -56,7 +56,7 @@ md_cities_change <- md_cities_rates %>% mutate(
 
 Look at the `md_cities_change` dataframe by clicking on it in the Environment tab in RStudio. Write a couple of sentences describing the percentage change results. What's more interesting here, the patterns or the outliers? What's the story in the data?
 
-What I found interesting was that for most cities both violent and property crime decreased in 2020. In many cities decreases were by more than 50%. Im sure this is mostly due to COVID lockdowns which would be the story here in my opinion I did find it interesting that in in some areas, including Baltimore city crime still rose despite the downward trend. 
+What I found interesting was that for most cities both violent and property crime decreased in 2020. In many cities decreases were by more than 50%. Im sure this mostly due to covid lockdowns which would be the story here in my opinion I did find it interesting that in in some areas, including baltimore city crime still rose dispite the downward trend. 
 
 ### Task 8: Tell the Best Story
 
@@ -64,7 +64,16 @@ Write up a lede and nutgraf of a story with the _best_ story idea you've found i
 
 Ocean City led state property and violent crime rates in 2020 despite a fall in crime amid COVID-19 lockdowns.
 
-The city saw a 45% decrease in violent crime and a 15% decrease in property crime rates during 2020 but still had the highest rates in both categories statewide.
+The city saw a 45% decrease in violent crime and a 15% decrease in property crime rates during 2020, but still had the highest rates in both categories statewide.
 ### Task 9: Save Your Work and Put it on GitHub
 
 Save this notebook, then commit it to your local repository. Push the changes to your GitHub repository and submit the URL for this file in ELMS.
+
+### Task 10: Using the 2020 violent crime rate, calculate the percentiles using `ntile()`. Save the results to a new dataframe called `md_cities_percentiles`. How many cities are above the 90th percentile? Do the results change your best story idea from the previous assignment? Why or why not?
+
+```{r}
+md_cities_percentiles <- md_cities_rates %>% mutate(
+  precentile = ntile( violent_rate_2020, 100))
+```
+
+20 cities are above the 90th precentile, this would not change my story idea, because by city is still in the 99th precentile for the highest violent rate.  

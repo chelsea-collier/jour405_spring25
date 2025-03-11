@@ -21,7 +21,7 @@ library(tidyverse)
 Load the GDP data from https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/gdp_djia.csv
 
 ```{r}
-GDP_data <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/gdp_djia.csv")
+gdp_djia <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/gdp_djia.csv")
 ```
 
 ### Task 3: Calculate the correlation coefficient
@@ -29,21 +29,23 @@ GDP_data <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/hea
 Use the `cor()` function to calculate the correlation coefficient between the DJIA and GDP.
 
 ```{r}
-GDP_data |> summarize(correlation = cor(DJIA, GDP, method="pearson"))
+gdp_djia |> 
+  summarize(correlation = cor(DJIA, GDP))
 ```
 
 ### Task 4: Create a scatterplot
 
-Use the `ggplot()` function to create a scatterplot of the DJIA and GDP. Be sure to label your axes and add a title.
+Use the `ggplot()` function to create a scatterplot of the DJIA and GDP.
 
 ```{r}
-
-GDP_data |> 
+gdp_djia |> 
   ggplot() +
-  geom_point(aes(x=DJIA, y=GDP)) +
-  geom_smooth(aes(x=DJIA, y=GDP), method="lm")
-  geom_text(aes(x=DJIA, y=GDP))
-
+  geom_point(aes(x = DJIA, y = GDP)) +
+  geom_smooth(aes(x = DJIA, y = GDP), method = 'lm') +
+  geom_text(aes(x = DJIA, y = GDP, label = Quarter)) +
+  labs(title = "DJIA vs. GDP",subtitle = "What's the relationship?",
+       x = "DJIA",
+       y = "GDP")
 ```
 
 ### Task 5: Describe our results

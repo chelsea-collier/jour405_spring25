@@ -26,10 +26,10 @@ Calculate violent and property crime rates for each city for both years using `m
 
 ```{r}
 md_cities_rates <- md_cities %>% mutate(
-  violent_rate_2019 = (pop2019 / violent2019 * 10),
-  property_rate_2019 = (pop2019 / property2019 * 10),
-  violent_rate_2020 = (pop2020 / violent2020 * 10), 
-  property_rate_2020 = (pop2020 / property2020 * 10),
+  violent_rate_2019 = (pop2019 / violent2019 * 1000),
+  property_rate_2019 = (pop2019 / property2019 * 1000),
+  violent_rate_2020 = (pop2020 / violent2020 * 1000), 
+  property_rate_2020 = (pop2020 / property2020 * 1000),
 )
 ```
 

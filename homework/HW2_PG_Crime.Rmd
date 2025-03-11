@@ -54,15 +54,17 @@ summer_crime_averages <- pg_crime_averages |>
 ```
 
 ### Task 7: Describe the Summer Crime Averages
-
-Look at the `summer_crime_averages` dataframe by clicking on it in the Environment tab in RStudio. Write a couple of sentences describing the percentage change in the average number of incidents per month for each category of crime for the months of June, July, and August. Do you see any patterns? What does this tell you about the theory that crime is more likely to occur in the summer months?
-
-ANSWER HERE
-
-### Task 8: What's the Story?
-
-Write up a lede and nutgraf of a story focused on the crime data in Prince George's County. It could be from any of the dataframes you've created in this assignment. The lede should be a single sentence that summarizes the most important information in the data. The nutgraf should be a paragraph that provides more context and explains why the data is important.
-
-ANSWER HERE
-
-### Task 9: Save Your Work
+ 
+ Look at the `summer_crime_averages` dataframe by clicking on it in the Environment tab in RStudio. Write a couple of sentences describing the percentage change in the average number of incidents per month for each category of crime for the months of June, July, and August. Do you see any patterns? What does this tell you about the theory that crime is more likely to occur in the summer months?
+ 
+ ANSWER HERE
+ Looking at the summer changes I notice that most of the crimes are neither consistantly rising or falling during summer months. Only two categories theft and accident with impound fell consistantly over the three months. I would want to take an average of the rates of change for the summer months to see which way they lean but I wouldnt say that this claim is nessisarily true in PG county based off this data alone.
+ 
+ ### Task 8: What's the Story?
+ 
+ Write up a lede and nutgraf of a story focused on the crime data in Prince George's County. It could be from any of the dataframes you've created in this assignment. The lede should be a single sentence that summarizes the most important information in the data. The nutgraf should be a paragraph that provides more context and explains why the data is important.
+ 
+ ANSWER HERE
+ Auto related crimes had the higest incidence rate of crimes in Prince George's County in 2024. 
+ 
+ Crimes involving accidents, stolen vehicles and theft from vehicles were categories with incidence rates of over 350 per month last year, according to Prince Georges County crime data. 

@@ -1,16 +1,23 @@
 # JOUR405: Statistics for Journalists
 ## Midterm Exam - Spring 2025
 
-Name: YOUR NAME HERE
+Name: Chelsea Collier
 
 For this exam, you'll analyze several datasets using R and the statistical concepts we've covered in class. Load the tidyverse before beginning, then complete each task. Write your code in the provided blocks and answer the questions in complete sentences. Start by loading the tidyverse and any other libraries you think you might need.
 
-```r
+```{r}
+library(tidyverse)
 ```
+
 
 ## Part 1: Restaurant Health Inspections (15 points)
 
 You want to understand how restaurants in Montgomery County are performing on health inspections. The first dataset contains restaurant health inspection scores for restaurants in Montgomery County. The dataset includes the name of the establishment, the number of points for critical and non-critical areas, the total points, maximum points possible and the compliance score and grade. Load the data from: `https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/montco_inspections.csv` and complete these tasks:
+
+```{r}
+mc_health <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/montco_inspections.csv")
+```
+
 
 ### Tasks:
 1. Calculate the mean and standard deviation of compliance scores (5 points)
@@ -18,13 +25,25 @@ You want to understand how restaurants in Montgomery County are performing on he
 3. Write 2-3 sentences interpreting what the standard deviation and histogram tell us about the distribution of compliance scores. What would be newsworthy about this distribution? What's the story here? (5 points).
 
 ```{r}
+mc_health |> 
+  summarize(sd_compliance = sd(compliance_score), mean_compliance = mean(compliance_score))
 
-
+mc_health |> 
+  ggplot(aes(x = compliance_score)) +
+  geom_histogram(binwidth = 5, fill = "blue", color = "black") +
+  geom_vline(aes(xintercept = mean(compliance_score)), color = "red", linetype = "dashed") +
+  labs(title = "Distribution of Compliance Scores in Mongomery County Health Inspections", x = "Compliance Score", y = "Number of Restaurants")
 ```
+
 
 ## Part 2: High School Athletics (25 points)
 
-You are reporting a story about high school sports participation in Maryland and want to see if there are differences between boys and girls. The second dataset shows participation numbers in high school sports across Maryland counties in 2024, broken down by sport and sex. Load the data from: `https://raw.githubusercontent.com/example/md_hs_sports_2024.csv` and complete these tasks:
+You are reporting a story about high school sports participation in Maryland and want to see if there are differences between boys and girls. The second dataset shows participation numbers in high school sports across Maryland counties in 2024, broken down by sex. Load the data from: `https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/md_hs_participation.csv` and complete these tasks:
+
+```{r}
+hs_sports <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/md_hs_participation.csv")
+```
+
 
 ### Tasks:
 1. Calculate the correlation between boys' and girls' participation (5 points)
@@ -33,13 +52,34 @@ You are reporting a story about high school sports participation in Maryland and
 4. In 2-3 sentences, explain what the correlation coefficient and scatterplot reveal about equity in Maryland high school sports participation. How do you interpret the school districts that are below the line vs those that are above? Which school districts are most worth examining further, and why? (10 points)
 
 ```{r}
+hs_sports |> 
+  summarize(correlation = cor(boys, girls))
 
+hs_sports |> mutate(
+  total = ( boys + girls),
+  girls_pct = ( girls / total)
+)
+
+hs_sports |> 
+  ggplot() +
+  geom_point(aes(x = boys, y = girls)) +
+  geom_smooth(aes(x = boys, y = girls), method = 'lm') +
+  geom_text(aes(x = boys, y = girls, label = district)) +
+  labs(title = "Boys vs. Girls",subtitle = "Sports Participation in Maryland Highschools",
+       x = "Boys",
+       y = "Girls")
+#4 The correlation coefficient and scatterplot show a strong positive correlation between the participation of girls and boys in maryland highschool sports. Those above the line have a higher representation of girls and those below have a higher representation of boys. I would be interested in looking closer at districts like Baltimore county public schools that have a higher representaion of girls in sports to find out the possible causes of less boys in sports there.
 ```
 
 
 ## Part 3: Public Transit Ridership (20 points)
 
 You are investigating public transit ridership in the Washington, D.C. area and want to understand the patterns of daily bus and rail ridership. The third dataset contains daily bus and rail ridership totals from WMATA for the past year. Load the data from https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/wmata_daily.csv and do the following:
+
+```{r}
+pub_transit <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/wmata_daily.csv")
+```
+
 
 ### Tasks:
 1. Calculate the average bus and rail ridership and standard deviation using summarize() (5 points)
@@ -48,7 +88,27 @@ You are investigating public transit ridership in the Washington, D.C. area and 
 
 
 ```{r}
+#1
+pub_transit|> 
+  summarize(sd_bus = sd(bus), mean_bus = mean(bus))
+pub_transit|> 
+  summarize(sd_rail = sd(rail), mean_rail = mean(rail))
 
+#2
+set.seed(1234)
+
+sample100 <- pub_transit |> 
+sample_n(100)
+
+sample100 |> 
+  summarize(sd_bus_100 = sd(bus), mean_bus_100 = mean(bus))
+
+sample10 |> 
+  summarize(sd_rail_100 = sd(rail), mean_rail_100 = mean(rail))
+
+# I chose 100 as my sample size because it was large enough to get about 1/5th of the data. I wanted there to be able to see if the sample was reperesentative without pulling from too large a portion of the data. I found that the mean and SD for rail were pretty close together but the population had slightly higher values. They were also close for bus, but for both SD and Mean the smaller sample had higher values.
+
+#3
 ```
 
 
@@ -57,6 +117,11 @@ You are investigating public transit ridership in the Washington, D.C. area and 
 
 Your editor has assigned you a story about car thefts in Maryland and wants you to analyze the data to find out which counties have the highest rates. The fourth dataset contains car theft statistics for Maryland counties in 2023 and population. Load the data from: `https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/md_car_thefts.csv` and complete the following tasks:
 
+```{r}
+car_theft <- read_csv("https://raw.githubusercontent.com/dwillis/jour405/refs/heads/main/data/md_car_thefts.csv")
+```
+
+
 ### Tasks:
 1. Using mutate, add a column that calculates the rate of car thefts for each county - you need to choose the per capita rate (5 points)
 2. Calculate the median car theft rate and the total number of car thefts statewide. Which counties have rates above the median, and what percentage of all car thefts occur in those counties? (5 points)
@@ -64,7 +129,15 @@ Your editor has assigned you a story about car thefts in Maryland and wants you 
 
 
 ```{r}
+car_theft |> 
+  mutate(theft_rate = (`2023` / population) * 1000)
 
+car_theft |> 
+  summarize(mean_theft = mean(`2023`),
+            median_theft = median(`2023`)
+)
+
+#some counties above the mean and median are baltimore city and county, montgomery and PG county. 
 ```
 
 ## Part 5: Data Analysis Scenario (20 points)
@@ -73,8 +146,11 @@ You receive a tip that local emergency response times have gotten significantly 
 
 Write 3-4 sentences (no code!) explaining:
 1. What statistical measures would you calculate to verify this claim? (10 points)
+ I would calculate the mean and median response times across each month and compare it to averages from previous years. I would also examine the standard deviation the percentage change.
 2. What visualizations would help readers understand the trends? (5 points)
+A histogram comparing each years average response time over a wide swath of years will help us determine if this year is an outlier. 
 3. What additional context or data would you need to make this a complete story? (5 points)
+  I would want to know how many units of fire and police are currently employeed, would also want to know if the number of yearly incidents has increased or decreased. 
 
 
 ### Submission Instructions

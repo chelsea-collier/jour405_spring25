@@ -1,5 +1,5 @@
 title: "Finding Stories in Prince George's County Daily Accident Data"
-author: "YOUR NAME"
+author: "Chelsea Collier"
 ---
 
 ```{r setup, include=FALSE}
@@ -75,7 +75,7 @@ ggplot(accidents, aes(x = date, y = total)) +
 ### Task 1 (3 points)
 Looking at the time series visualization above, identify at least two noticeable patterns or anomalies. What questions would you want to investigate further based on this initial view of the data? How might these visual patterns translate into potential story angles?
 
-ANSWER HERE
+I notice a large drop at the beginning of 2020, I also see a moderate spike at the end of 2021. I would want to know how COVID-19 may have impacted the amount of drivers on the road potentially influencing a decrease in crashes. I think that while the COVID angle is an obvious story angle, I am really interested in the very end of 2021 which seems to hold both the maximum followed by the minimum in the data set. I would be interested in reporting on how the reaction to that spike may have influenced that minimum coming shortly after. 
 
 The daily data is quite noisy, so let's also look at weekly patterns:
 
@@ -114,7 +114,7 @@ ggplot(accidents, aes(x = day_of_week, y = total)) +
 ### Task 2 (2 points)
 Based on the day-of-week analysis, which day(s) have the highest and lowest average accidents? Why might these patterns exist?
 
-ANSWER HERE
+Friday has the highest average which make sense to me because it is both a partying day and a week day, so the combination of people having worked a full day and then drinking/partying late may cause accidents. Wednesday has the lowest average which also makes sense because it is a work day and I would assume that most people arent out super late or engaging in higer risk behaviors when it comes to driving. 
 
 ## Calculating Z-Scores
 
@@ -161,7 +161,7 @@ unusual_days |>
 ### Task 3 (3 points)
 Choose one of the top 10 unusual days and research what might have happened on that date. Look for weather events, holidays, major incidents, or other factors that could explain the unusual number of accidents. Briefly describe your findings and how you would incorporate this context into a story.
 
-ANSWER HERE
+I looked at October 29, 2021. I found that the day had severe weather and flash flooding. Schools had to be closed due to the severe weather. I also saw that a lot of parties and festibles were planned for that day due to it being the friday before halloween. I would want to know how the severe weather in combination with potentially increased traffic due to events may have contributed to the spike.
 
 Let's visualize these unusual days:
 
@@ -210,7 +210,7 @@ unusual_dow |>
 ### Task 4 (3 points)
 Compare the days that have extreme z-scores overall versus those with extreme day-of-week z-scores. How do these lists differ? What journalistic insights can you draw from comparing these two different approaches to measuring "unusual" days?
 
-ANSWER HERE
+The overall days and day of the week z scores are in line with each other, though that I noticed that the over all z scores tend show more of an outlier for each points in comparison to the extereme day of week scores. It helps us see when a data point is not a general outlier but also when it may be unusual for the day of the week it occured on as well. 
 
 Let's see how many unusual days we have for each day of the week:
 
@@ -289,7 +289,7 @@ unusual_monthly |>
 ### Task 5 (2 points)
 Based on the monthly pattern analysis, which months have the highest and lowest average accidents? Develop a hypothesis about why these seasonal patterns exist.
 
-ANSWER HERE
+Based on the monthly pattern analysis, October and November have the highest average number of daily accidents, with October averaging 27.52 accidents per day and November averaging 25.96 accidents per day. The months with the lowest average accident rates are January and March, with January averaging 22.21 accidents per day and March averaging 23.05 accidents per day. A hypothesis for these seasonal patterns is that accident rates rise in the fall because of shorter daylight hours, worsening weather conditions and increased traffic tied to holidays such as Halloween and Thanksgiving. Lower accident averages in January and March may be from reduced driving activity during the colder winter months and early spring because people are less likely to travel extensively in icy or snowy conditions and may stay home more often.
 
 ## Identifying Extreme Outliers
 
@@ -314,9 +314,19 @@ if(nrow(extreme_outliers) > 0) {
 ### Task 6 (2 points)
 For the extreme outliers identified (z-scores beyond ±3), what do they have in common?
 
-ANSWER HERE
+The extreme outliers—days shows most of the unusual accident days fall on Fridays and Saturdays, suggesting that the end of the workweek and the start of the weekend are high risk driving periods. Several of the extreme high-accident days, such as October 29, 2021, May 29, 2021 and July 23, 2021, all occurred on either Fridays or Saturdays and involved accident totals pretty high above normal. 
+
+The two extreme low-accident outliers—November 29, 2021 and March 23, 2025 occurred on quieter days at the beginning or end of the week. Unusually low accident days may be connected to low travel days or major disruptions that kept people off roads.
 
 ## Your Best Story Pitch
 
 ### Task 7 (5 points)
 Based on all the analyses performed, craft your best story pitch, including a headline and lede. Be sure to include what kinds of sources/people you'd talk to for the story.
+
+
+Weekends and Storms Are a Dangerous Mix for Prince George’s County Drivers
+
+An analysis of three years of accident data in Prince George’s County reveals that Fridays and Saturdays are the most dangerous days on the road, especially when combined with severe weather. Extreme spikes in crashes often coincide with the end of the workweek, major holidays, or heavy storms, while unusually low-accident days tend to occur on Sundays or Mondays.
+
+Sources:
+I would talk to officials from the Prince George’s County Department of Transportation to understand how they prepare for peak traffic times and storms. I would also speak to local meteorologists about how weather impacts driving safety, and interview first responders who can describe what happens on unusually high-accident days. I would talk to residents who have been involved in major crashes during storms or holiday weekends as well

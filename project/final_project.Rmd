@@ -43,3 +43,36 @@ library(corrplot)
 survivor_data <- read_csv("https://github.com/chelsea-collier/jour405_spring25/blob/c728c4d467755b6afb890fac20df0e32827823ba/project/Survivor_Data_402.csv")
 head(md_turnout)
 ```
+# The Tests You Could Run (gpt used https://chatgpt.com/share/682a860e-8e18-800a-93eb-4f547d844e8d)
+1. Comparing Mean Placement by Employment Category
+	•	Test: One-way ANOVA or t-test (depending on number of groups)
+	•	Why: I want to see whether contestants in service-related professions (e.g., healthcare, education, hospitality) place higher in Survivor compared to other occupational groups.
+	•	Approach:
+	•	I’ve already grouped contestants into employment categories.
+	•	If I reduce this to “Service” vs. “Non-Service,” I will use a two-sample t-test.
+	•	If I keep multiple categories (e.g., Education, Healthcare, Business, etc.), I’ll use a one-way ANOVA and follow up with Tukey’s HSD if significant.
+
+2. Regional Differences in Placement
+	•	Test: One-way ANOVA (East Coast, Midwest, South, West)
+	•	Why: This will test if there’s a statistically significant difference in average placement across U.S. regions.
+	•	Approach:
+	•	Group contestants by region (already done).
+	•	Compare normalized finish scores across these regions.
+
+3. Does Age 25–35 Perform Best?
+	•	Test: One-way ANOVA or post-hoc comparisons by age group
+	•	Why: This will allow me to test whether contestants in the 25–35 age range perform better than those younger or older.
+	•	Approach:
+	•	Create age brackets (e.g., <25, 25–35, >35).
+	•	Compare mean placements using ANOVA.
+	•	Visualize with boxplots.
+	
+4. Regression Analysis
+	•	Test: Linear regression
+	•	Why: This can show how multiple variables (e.g., age, region, occupation) collectively predict performance in the game.
+	•	Approach:
+	•	Use normalized_finish as the dependent variable.
+	•	Include predictors like age, gender, region, and occupation category.
+	
+	5. I would also likle to use a scatterplots to visualize the relationships of variables that may be correlated
+

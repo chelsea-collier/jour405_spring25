@@ -1,0 +1,786 @@
+contestant_name,profession,state,finish,normalized_finish,gender,age,num_season,birthdate,employment_category,region
+Sonja Christopher,Musician/Retired Teacher,California,16,0.0,F,63,1,1937-01-28,Education,West
+B.B. Andersen,Real Estate Developer,Kansas,15,0.0625,M,64,1,1936-01-18,Business,Midwest
+Stacey Stillman,Attorney,California,14,0.125,F,27,1,1972-08-11,Law,West
+Ramona Gray,Biochemist,New Jersey,13,0.1875,F,29,1,1971-01-20,Other,East Coast
+Dirk Been,Dairy Farmer,Wisconsin,12,0.25,M,23,1,1976-06-15,Agriculture,Midwest
+Joel Klug,Health Club Consultant,Arkansas,11,0.3125,M,27,1,1972-04-13,Healthcare,South
+Gretchen Cordy,Teacher,Tennessee,10,0.375,F,38,1,1962-02-07,Education,South
+Greg Buis,Ivy League Graduate,Colorado,9,0.4375,M,24,1,1975-12-31,Other,West
+Jenna Lewis,Student,New Hampshire,8,0.5,F,22,1,1977-07-16,Student,East Coast
+Gervase Peterson,YMCA Basketball Coach,New Jersey,7,0.5625,M,30,1,1969-11-02,Education,East Coast
+Colleen Haskell,Student,Florida,6,0.625,F,23,1,1976-12-06,Student,East Coast
+Sean Kenniff,Neurologist,New York,5,0.6875,M,30,1,1969-11-27,Other,East Coast
+Susan Hawk,Truck Driver,Wisconsin,4,0.75,F,38,1,1961-08-17,Other,Midwest
+Rudy Boesch,Retired NAVY Seal,Virginia,3,0.8125,M,72,1,1928-01-20,Retired,East Coast
+Kelly Wiglesworth,River Rafting Guide,California,2,0.875,F,22,1,1977-06-24,Other,West
+Richard Hatch,Corporate Trainer,Rhode Island,1,0.9375,M,39,1,1961-04-08,Other,East Coast
+Debb Eaton,Corrections Officer,New Hampshire,16,0.0,F,45,2,1955-06-11,Other,East Coast
+Kel Gleason,Army Intelligence Officer,Texas,15,0.0625,M,32,2,1968-01-05,Other,South
+Maralyn Hershey,Retired Police Officer,Virginia,14,0.125,F,51,2,1949-01-24,Retired,East Coast
+Mitchell Olson,Singer/Songwriter,New Jersey,13,0.1875,M,23,2,1977-03-17,Other,East Coast
+Kimmi Kappenberg,Bartender,New York,12,0.25,F,28,2,1972-11-11,Hospitality,East Coast
+Michael Skupin,Software Publisher,Michigan,11,0.3125,M,38,2,1962-01-29,Other,Midwest
+Jeff Varner,Internet Projects Manager,New York,10,0.375,M,34,2,1966-04-16,Other,East Coast
+Alicia Calaway,Personal Trainer,New York,9,0.4375,F,32,2,1968-05-01,Other,East Coast
+Jerri Manthey,Aspiring Actress,California,8,0.5,F,30,2,1970-09-05,Other,West
+Nick Brown,Law Student,Washington,7,0.5625,M,23,2,1977-04-02,Student,West
+Amber Mariano,Administrative Assistant,Pennsylvania,6,0.625,F,22,2,1978-08-11,Other,East Coast
+Rodger Bingham,Teacher/Farmer,Kentucky,5,0.6875,M,53,2,1947-07-05,Education,South
+Elisabeth Filarski,Footwear Designer,Massachusetts,4,0.75,F,23,2,1977-05-28,Other,East Coast
+Keith Famie,Chef,Michigan,3,0.8125,M,40,2,1960-02-11,Hospitality,Midwest
+Colby Donaldson,Auto Customizer,Texas,2,0.875,M,26,2,1974-04-01,Other,South
+Tina Wesson,Personal Nurse,Tennessee,1,0.9375,F,39,2,1960-12-26,Healthcare,South
+Diane Ogden,Mail Carrier,Nebraska,16,0.0,F,42,3,1959-04-27,Other,Midwest
+Jessie Camacho,Sheriff,Florida,15,0.0625,F,27,3,1974-09-24,Other,East Coast
+Carl Bilancione,Dentist,Florida,14,0.125,M,46,3,1955-06-20,Other,East Coast
+Linda Spencer,Career Counselor,Massachusetts,13,0.1875,F,44,3,1957-01-01,Other,East Coast
+Silas Gaither,Bartender,California,12,0.25,M,23,3,1978-01-28,Hospitality,West
+Lindsey Richter,Advertising Executive,Oregon,11,0.3125,F,27,3,1974-08-31,Other,West
+Clarence Black,Basketball Coach,Michigan,10,0.375,M,24,3,1976-12-21,Education,Midwest
+Kelly Goldsmith,Behavior Analyst,California,9,0.4375,F,22,3,1979-04-27,Other,West
+Brandon Quinton,Bartender,Texas,8,0.5,M,25,3,1976-01-22,Hospitality,South
+Frank Garrison,Telephone Technician,New York,7,0.5625,M,43,3,1958-07-22,Engineering/Technical,East Coast
+Kim Powers,Freelance Marketer,Pennsylvania,6,0.625,F,29,3,1971-12-03,Other,East Coast
+Teresa Cooper,Flight Attendant,Georgia,5,0.6875,F,42,3,1959-05-05,Other,East Coast
+Tom Buchanan,Goat Farmer,Virginia,4,0.75,M,46,3,1955-10-30,Agriculture,East Coast
+Lex van den Berghe,Marketing Manager,California,3,0.8125,M,38,3,1963-06-18,Other,West
+Kim Johnson,Retired Teacher,New York,2,0.875,F,57,3,1944-09-18,Education,East Coast
+Ethan Zohn,Professional Soccer Player,New York,1,0.9375,M,27,3,1973-11-12,Other,East Coast
+Peter Harkey,Bowling Alley Owner,Massachusetts,16,0.0,M,45,4,1956-01-17,Other,East Coast
+Patricia Jackson,Truck Assembler,South Carolina,15,0.0625,F,49,4,1952-04-08,Other,East Coast
+Hunter Ellis,Ex-Navy Fighter Pilot,California,14,0.125,M,33,4,1968-07-05,Other,West
+Sarah Jones,Account Manager,California,13,0.1875,F,24,4,1977-08-11,Other,West
+Gabriel Cade,Bartender,California,12,0.25,M,23,4,1978-07-01,Hospitality,West
+Gina Crews,Nature Guide,Florida,11,0.3125,F,28,4,1973-02-07,Other,East Coast
+Rob Mariano,Construction Worker,Massachusetts,10,0.375,M,26,4,1975-12-25,Other,East Coast
+John Carroll,Nurse,Nebraska,9,0.4375,M,36,4,1965-06-14,Healthcare,Midwest
+Zoe Zanidakis,Fishing Boat Captain,Maine,8,0.5,F,35,4,1966-03-17,Other,East Coast
+Tammy Leitner,Crime Reporter,Arizona,7,0.5625,F,29,4,1972-07-03,Other,West
+Robert DeCanio,Limousine Driver,New York,6,0.625,M,38,4,1963-06-19,Other,East Coast
+Sean Rector,Teacher,California,5,0.6875,M,30,4,1971-08-20,Education,West
+Paschal English,Judge,Georgia,4,0.75,M,57,4,1945-03-05,Law,East Coast
+Kathy Vavrick-O'Brien,Real Estate Agent,Vermont,3,0.8125,F,47,4,1955-01-06,Business,Unknown
+Neleh Dennis,Student,Utah,2,0.875,F,21,4,1980-02-19,Student,West
+Vecepia Towery,Office Manager,California,1,0.9375,F,36,4,1965-12-09,Other,West
+John Raymond,Pastor,Louisiana,16,0.0,M,40,5,1962-02-21,Other,South
+Tanya Vance,Social Worker,Tennessee,15,0.0625,F,27,5,1974-11-29,Other,South
+Jed Hildebrand,Dental Student,Texas,14,0.125,M,25,5,1976-12-05,Student,South
+Ghandia Johnson,Legal Secretary,Colorado,13,0.1875,F,33,5,1969-01-03,Other,West
+Stephanie Dill,Firefighter,Arkansas,12,0.25,F,29,5,1972-11-15,Other,South
+Robb Zbacnik,Bartender,Arizona,11,0.3125,M,23,5,1978-09-12,Hospitality,West
+Shii Ann Huang,Executive Recruiter,New York,10,0.375,F,28,5,1974-01-24,Other,East Coast
+Erin Collins,Real Estate Agent,Texas,9,0.4375,F,26,5,1976-01-07,Business,South
+Ken Stafford,Police Officer,New York,8,0.5,M,30,5,1972-06-20,Other,East Coast
+Penny Ramsey,Pharmaceutical Saleswoman,Texas,7,0.5625,F,27,5,1975-04-24,Business,South
+Jake Billingsley,Land Broker,Texas,6,0.625,M,61,5,1941-08-21,Other,South
+"Ted Rogers, Jr.",Software Developer,North Carolina,5,0.6875,M,37,5,1964-12-28,Business,East Coast
+Helen Glover,Navy Swim Instructor,Rhode Island,4,0.75,F,47,5,1955-04-28,Other,East Coast
+Jan Gentry,Teacher,Florida,3,0.8125,F,53,5,1948-10-31,Education,East Coast
+Clay Jordan,Restaurant Owner,Louisiana,2,0.875,M,46,5,1955-12-30,Other,South
+Brian Heidik,Used Car Salesman,California,1,0.9375,M,34,5,1968-03-09,Business,West
+Ryan Aiken,Model,Maryland,16,0.0,M,23,6,1979-02-13,Other,East Coast
+Janet Koth,Homemaker,Missouri,15,0.0625,F,47,6,1955-11-18,Other,Midwest
+Daniel Lue,Tax Accountant,Texas,14,0.125,M,27,6,1975-11-29,Other,South
+JoAnna Ward,Guidance Counselor,South Carolina,13,0.1875,F,31,6,1971-04-29,Other,East Coast
+Jeanne Hebert,Marketing Director,Massachusetts,12,0.25,F,41,6,1962-01-06,Other,East Coast
+Shawna Mitchell,Retail Saleswoman,California,11,0.3125,F,23,6,1979-07-28,Business,West
+Roger Sexton,Construction Company Vice President,California,10,0.375,M,56,6,1946-09-26,Other,West
+Dave Johnson,Rocket Scientist,California,9,0.4375,M,24,6,1979-01-16,Other,West
+Deena Bennett,Deputy District Attorney,California,8,0.5,F,35,6,1967-02-12,Law,West
+Alex Bell,Triathlon Coach,California,7,0.5625,M,32,6,1970-05-16,Education,West
+Christy Smith,Children's Adventure Guide,Colorado,6,0.625,F,24,6,1978-09-13,Other,West
+Heidi Strobel,Gym Teacher,Missouri,5,0.6875,F,24,6,1978-10-29,Education,Midwest
+Butch Lockley,School Principal,Illinois,4,0.75,M,50,6,1952-08-28,Other,Midwest
+Rob Cesternino,Computer Projects Coordinator,New York,3,0.8125,M,24,6,1978-10-20,Other,East Coast
+Matthew von Ertfelda,Restaurant Designer,D.C.,2,0.875,M,33,6,1969-07-24,Other,Unknown
+Jenna Morasca,Swimsuit Model,Pennsylvania,1,0.9375,F,21,6,1981-02-15,Other,East Coast
+Nicole Delma,Massage Therapist,California,16,0.0,F,24,7,1978-09-19,Healthcare,West
+Ryan Shoulders,Produce Clerk,Tennessee,15,0.0625,M,23,7,1980-03-28,Other,South
+Michelle Tesauro,Student,New Jersey,14,0.125,F,22,7,1981-01-16,Student,East Coast
+Trish Dunn,Sales Executive,Maryland,13,0.1875,F,42,7,1960-10-29,Business,East Coast
+Shawn Cohen,Advertising Salesman,New York,12,0.25,M,28,7,1974-09-20,Business,East Coast
+Osten Taylor,Equity Trade Manager,Massachusetts,11,0.3125,M,27,7,1975-12-10,Other,East Coast
+Andrew Savage,Attorney,Illinois,10,0.375,M,40,7,1963-07-29,Law,Midwest
+Ryan Opray,Electrician,California,9,0.4375,M,31,7,1972-08-06,Other,West
+Rupert Boneham,Troubled Teens Mentor,Indiana,8,0.5,M,39,7,1964-01-27,Other,Midwest
+Tijuana Bradley,Pharmaceutical Saleswoman,Missouri,7,0.5625,F,27,7,1976-07-23,Business,Midwest
+Christa Hastie,Computer Programmer,California,6,0.625,F,24,7,1978-11-06,Other,West
+Burton Roberts,Marketing Executive,California,5,0.6875,M,31,7,1972-04-10,Other,West
+Darrah Johnson,Mortician,Mississippi,4,0.75,F,22,7,1981-05-19,Other,South
+Jon Dalton,Art Consultant,Virginia,3,0.8125,M,29,7,1974-03-11,Other,East Coast
+Lillian Morris,Scoutmaster,Ohio,2,0.875,F,51,7,1952-04-03,Other,Midwest
+Sandra Diaz-Twine,Office Assistant,Washington,1,0.9375,F,29,7,1974-07-30,Other,West
+Tina Wesson,Motivational Speaker,Tennessee,18,0.0,F,42,8,1960-12-26,Other,South
+Rudy Boesch,Retired Navy Seal,Virginia,17,0.0555555555555555,M,75,8,1928-01-20,Retired,East Coast
+Jenna Morasca,Swimsuit Model,Pennsylvania,16,0.1111111111111111,F,22,8,1981-02-15,Other,East Coast
+Rob Cesternino,Computer Projects Coordinator,New York,15,0.1666666666666666,M,25,8,1978-10-20,Other,East Coast
+Richard Hatch,Corporate Trainer,Rhode Island,14,0.2222222222222222,M,42,8,1961-04-08,Other,East Coast
+Susan Hawk,Waitress/Bartender,Wisconsin,13,0.2777777777777778,F,42,8,1961-08-17,Hospitality,Midwest
+Colby Donaldson,Actor,Texas,12,0.3333333333333333,M,29,8,1974-04-01,Arts,South
+Ethan Zohn,Motivational Speaker,Massachusetts,11,0.3888888888888888,M,30,8,1973-11-12,Other,East Coast
+Jerri Manthey,Actress,California,10,0.4444444444444444,F,33,8,1970-09-05,Other,West
+Lex van den Berghe,Freelance Writer,California,9,0.5,M,40,8,1963-06-18,Other,West
+Kathy Vavrick-O'Brien,Real Estate Agent,Vermont,8,0.5555555555555556,F,49,8,1955-01-06,Business,Unknown
+Alicia Calaway,Health and Fitness Reporter,New York,7,0.6111111111111112,F,35,8,1968-05-01,Healthcare,East Coast
+Shii Ann Huang,Executive Recruiter,New York,6,0.6666666666666667,F,30,8,1974-01-24,Other,East Coast
+Tom Buchanan,Goat Farmer,Virginia,5,0.7222222222222222,M,48,8,1955-10-30,Agriculture,East Coast
+Rupert Boneham,Troubled Teens Mentor,Indiana,4,0.7777777777777778,M,40,8,1964-01-27,Other,Midwest
+Jenna Lewis,Actress,New Hampshire,3,0.8333333333333334,F,26,8,1977-07-16,Other,East Coast
+Rob Mariano,Construction Worker,Massachusetts,2,0.8888888888888888,M,28,8,1975-12-25,Other,East Coast
+Amber Mariano,Administrative Assistant,Pennsylvania,1,0.9444444444444444,F,25,8,1978-08-11,Other,East Coast
+Brook Geraghty,Document Manager,California,18,0.0,M,33,9,1976-11-20,Other,West
+Dolly Neely,Sheep Farmer,Pennsylvania,17,0.0555555555555555,F,25,9,1978-11-18,Agriculture,East Coast
+John Palyok,Sales Manager,California,16,0.1111111111111111,M,31,9,1973-05-13,Business,West
+Mia Galeotalanza,Bookkeeper,New Jersey,15,0.1666666666666666,F,30,9,1974-08-17,Other,East Coast
+Brady Finta,FBI Agent,California,14,0.2222222222222222,M,33,9,1970-12-17,Other,West
+Travis Sampson,Security Officer,Tennessee,13,0.2777777777777778,M,33,9,1971-02-19,Other,South
+Lisa Keiffer,Real State Agent,Louisiana,12,0.3333333333333333,F,44,9,1960-05-03,Other,South
+John Kenney,Mechanical Bull Operator/Model,California,11,0.3888888888888888,M,22,9,1981-09-26,Engineering/Technical,West
+Rory Freeman,Housing Case Manager,Iowa,10,0.4444444444444444,M,35,9,1968-10-30,Other,Midwest
+Lea Masters,Drill Sergeant,South Carolina,9,0.5,M,40,9,1964-03-28,Other,East Coast
+Chad Crittenden,Teacher,California,8,0.5555555555555556,M,35,9,1969-08-08,Education,West
+Leann Slaby,Equity Research Assistant,Wisconsin,7,0.6111111111111112,F,35,9,1969-07-08,Other,Midwest
+Ami Cusack,Coffee Barista,Colorado,6,0.6666666666666667,F,31,9,1973-01-25,Other,West
+Julie Berry,Youth Mentor,Maine,5,0.7222222222222222,F,23,9,1980-12-15,Other,East Coast
+Eliza Orlins,Pre-Law Student,New York,4,0.7777777777777778,F,21,9,1982-12-25,Student,East Coast
+Scout Cloud Lee,Rancher,Oklahoma,3,0.8333333333333334,F,59,9,1944-11-08,Agriculture,South
+Twila Tanner,Highway Repair Worker,Missouri,2,0.8888888888888888,F,41,9,1962-10-12,Other,Midwest
+Chris Daugherty,Highway Construction Worker,Ohio,1,0.9444444444444444,M,33,9,1970-08-29,Other,Midwest
+Jonathan Libby,Sales & Marketing Associate,Texas,20,0.0,M,23,10,1981-09-05,Business,South
+Wanda Shirk,English Teacher,Pennsylvania,19,0.05,F,55,10,1949-08-24,Education,East Coast
+Jolanda Jones,Attorney,Texas,18,0.0999999999999999,F,39,10,1965-11-06,Law,South
+Ashlee Ashby,Student,South Carolina,17,0.15,F,22,10,1982-05-02,Student,East Coast
+Jeff Wilson,Personal Trainer,California,16,0.1999999999999999,M,21,10,1983-02-09,Other,West
+Kim Mullen,Graduate Student,Ohio,15,0.25,F,25,10,1979-03-13,Student,Midwest
+Willard Smith,Attorney,Washington,14,0.3,M,57,10,1947-11-30,Law,West
+Angie Jakusz,Bartender,Louisiana,13,0.35,F,24,10,1980-03-27,Hospitality,South
+James Miller,Steelworker,Alabama,12,0.4,M,33,10,1971-07-08,Other,South
+Ibrehem Rahman,Model,Alabama,11,0.4499999999999999,M,27,10,1977-03-04,Other,South
+Bobby Jon Drinkard,Waiter,Alabama,10,0.5,M,27,10,1977-05-10,Hospitality,South
+Coby Archa,Hairdresser,Texas,9,0.55,M,32,10,1972-09-08,Other,South
+Janu Tornell,Vegas Showgirl,Nevada,8,0.6,F,39,10,1965-05-09,Other,West
+Stephenie LaGrossa,Pharmaceutical Sales Representative,Pennsylvania,7,0.65,F,25,10,1979-12-06,Business,East Coast
+Gregg Carey,Business Consultant,Illinois,6,0.7,M,27,10,1977-01-09,Other,Midwest
+Caryn Groedel,Civil Rights Attorney,Ohio,5,0.75,F,46,10,1958-08-13,Law,Midwest
+Jennifer Lyon,Nanny,California,4,0.8,F,32,10,1972-02-27,Other,West
+Ian Rosenberger,Dolphin Trainer,Florida,3,0.85,M,23,10,1981-08-24,Other,East Coast
+Katie Gallagher,Advertising Executive,California,2,0.9,F,29,10,1975-05-28,Other,West
+Tom Westman,Firefighter,New York,1,0.95,M,41,10,1964-01-04,Other,East Coast
+Jim Lynch,Retired Fire Captain,Colorado,18,0.0,M,63,11,1942-01-07,Retired,West
+Morgan McDevitt,Magician's Assistant,Illinois,17,0.0555555555555555,F,21,11,1983-11-24,Other,Midwest
+Brianna Varela,Retail Salesperson,Washington,16,0.1111111111111111,F,21,11,1983-10-29,Business,West
+Brooke Struck,Law Student,Oregon,15,0.1666666666666666,F,26,11,1979-07-30,Student,West
+Blake Towsley,Real Estate Broker,Texas,14,0.2222222222222222,M,24,11,1981-05-05,Business,South
+Margaret Bobonich,Nursing Practitioner,Ohio,13,0.2777777777777778,F,43,11,1962-06-05,Other,Midwest
+Brian Corridan,Ivy League Student,New York,12,0.3333333333333333,M,22,11,1983-02-10,Student,East Coast
+Amy O'Hara,Police Sergeant,Massachusetts,11,0.3888888888888888,F,39,11,1965-11-02,Other,East Coast
+Brandon Bellinger,Farmer,Kansas,10,0.4444444444444444,M,22,11,1983-01-22,Agriculture,Midwest
+Bobby Jon Drinkard,Waiter,Alabama,9,0.5,M,27,11,1977-05-10,Hospitality,South
+Jamie Newton,Water Skiing Instructor,California,8,0.5555555555555556,M,24,11,1981-01-26,Other,West
+Gary Hogeboom,Former NFL Quarterback,Michigan,7,0.6111111111111112,M,46,11,1958-08-21,Other,Midwest
+Judd Sergeant,Hotel Doorman,New Jersey,6,0.6666666666666667,M,34,11,1970-09-13,Other,East Coast
+Cindy Hall,Zookeeper,Florida,5,0.7222222222222222,F,31,11,1974-06-28,Other,East Coast
+Lydia Morales,Fishmonnger,Washington,4,0.7777777777777778,F,42,11,1963-01-19,Other,West
+Rafe Judkins,Wilderness Guide,Rhode Island,3,0.8333333333333334,M,22,11,1983-01-08,Other,East Coast
+Stephenie LaGrossa,Pharmaceutical Sales Representative,Pennsylvania,2,0.8888888888888888,F,25,11,1979-12-06,Business,East Coast
+Danni Boatwright,Sports Radio Host,Kansas,1,0.9444444444444444,F,30,11,1975-07-13,Other,Midwest
+Tina Scheer,Lumberjill,Wisconsin,16,0.0,F,45,12,1960-11-17,Other,Midwest
+Melinda Hyder,Singer/Entertainer,Tennessee,15,0.0625,F,32,12,1973-05-23,Other,South
+Misty Giles,Missile Engineer,Texas,14,0.125,F,24,12,1981-02-25,Engineering/Technical,South
+Ruth Marie Milliman,Property Developer,South Carolina,13,0.1875,F,48,12,1957-04-11,Business,East Coast
+Bobby Mason,Attorney,California,12,0.25,M,32,12,1973-08-20,Law,West
+Dan Barry,Astronaut,Massachusetts,11,0.3125,M,52,12,1953-12-30,Other,East Coast
+Nick Stanbury,Financial Salesman,Arizona,10,0.375,M,25,12,1980-07-21,Business,West
+Austin Carty,Writer,North Carolina,9,0.4375,M,24,12,1981-04-29,Other,East Coast
+Sally Schumann,Social Worker,Illinois,8,0.5,F,27,12,1978-12-10,Other,Midwest
+Bruce Kanegai,Art Teacher,California,7,0.5625,M,58,12,1947-12-17,Education,West
+Courtney Marit,Fire Dancer,California,6,0.625,F,31,12,1974-05-24,Other,West
+Shane Powers,Marketing Executive,California,5,0.6875,M,35,12,1970-11-28,Other,West
+Cirie Fields,Nurse,South Carolina,4,0.75,F,34,12,1970-07-18,Healthcare,East Coast
+Terry Deitz,Pilot,Connecticut,3,0.8125,M,46,12,1959-10-10,Other,East Coast
+Danielle DiLorenzo,Medical Sales Representative,Florida,2,0.875,F,24,12,1981-06-03,Business,East Coast
+Aras Baskauskas,Yoga Instructor,California,1,0.9375,M,24,12,1981-09-26,Other,West
+Sekou Bunch,Jazz Musician,California,20,0.0,M,46,13,1960-09-09,Arts,West
+Billy Garcia,Heavy Metal Musician,New York,19,0.05,M,36,13,1970-04-22,Arts,East Coast
+Cecilia Mansilla,Risk Consultant,California,18,0.0999999999999999,F,29,13,1977-01-13,Other,West
+J.P. Calderon,Profession Volleyball Player,California,17,0.15,M,30,13,1975-09-05,Other,West
+Stephannie Favor,Nursing Student,South Carolina,16,0.1999999999999999,F,35,13,1970-07-12,Student,East Coast
+Cao Boi Bui,Nail Salon Manager,Virginia,15,0.25,M,42,13,1964-04-10,Other,East Coast
+Cristina Coria,Police Officer,California,14,0.3,F,35,13,1971-04-18,Other,West
+Jessica Smith,Roller Girl,California,13,0.35,F,27,13,1979-01-22,Other,West
+Brad Virata,Fashion Director,California,12,0.4,M,27,13,1976-11-23,Other,West
+Rebecca Borman,Makeup Artist,New York,11,0.4499999999999999,F,34,13,1971-08-31,Arts,East Coast
+Jenny Guzon-Bae,Real Estate Agent,Illinois,10,0.5,F,36,13,1970-05-08,Business,Midwest
+Nate Gonzalez,Shoe Salesman,California,9,0.55,M,26,13,1980-07-26,Business,West
+Candice Cody,Pre-Med Student,North Carolina,8,0.6,F,23,13,1982-11-12,Student,East Coast
+Jonathan Penner,Writer,California,7,0.65,M,44,13,1962-03-05,Other,West
+Parvati Shallow,Boxer,California,6,0.7,F,24,13,1982-09-21,Other,West
+Adam Gentry,Copier Sales Executive,California,5,0.75,M,28,13,1978-08-21,Business,West
+Sundra Oakley,Actress,California,4,0.8,F,31,13,1975-01-02,Other,West
+Becky Lee,Attorney,D.C.,3,0.85,F,28,13,1977-09-11,Law,Unknown
+Ozzy Lusth,Waiter,California,2,0.9,M,25,13,1981-08-23,Hospitality,West
+Yul Kwon,Management Consultant,California,1,0.95,M,31,13,1975-02-14,Other,West
+Jessica deBen,Fashion Stylist,California,19,0.0,F,27,14,1979-04-25,Other,West
+Erica Durousseau,Non-Profit Fundraiser,Louisiana,18,0.0526315789473684,F,27,14,1979-12-11,Other,South
+Sylvia Kwan,Architect,California,17,0.1052631578947368,F,52,14,1954-08-18,Other,West
+Gary Stritesky,School Bus Driver,Minnesota,16,0.1578947368421053,M,55,14,1951-09-16,Other,Midwest
+Liliana Gomez,Loan Officer,California,15,0.2105263157894736,F,25,14,1981-04-05,Other,West
+Rita Verreos,Single Mother,Texas,14,0.2631578947368421,F,38,14,1968-07-19,Other,South
+Anthony Robinson,Expert Witness Locator,California,13,0.3157894736842105,M,32,14,1974-06-25,Other,West
+Rocky Reid,Bartender,California,12,0.368421052631579,M,28,14,1978-09-11,Hospitality,West
+Lisi Linares,Customer Service Representative,California,11,0.4210526315789473,F,36,14,1970-06-09,Other,West
+Michelle Yi,Student,Ohio,10,0.4736842105263158,F,23,14,1983-12-02,Student,Midwest
+Edgardo Rivera,Advertising Executive,Florida,9,0.5263157894736843,M,28,14,1978-10-05,Other,East Coast
+Mookie Lee,Business Consultant,Illinois,8,0.5789473684210527,M,25,14,1981-11-10,Other,Midwest
+Alex Angarita,Attorney,California,7,0.631578947368421,M,28,14,1978-04-20,Law,West
+Stacy Kimball,Web Producer,Colorado,6,0.6842105263157895,F,27,14,1979-10-01,Other,West
+Boo Bernis,Construction Worker,Louisiana,5,0.736842105263158,M,34,14,1972-06-21,Other,South
+Yau-Man Chan,Internet Technology Director,California,4,0.7894736842105263,M,54,14,1952-08-26,Other,West
+Cassandra Franklin,College Administrator,California,2,0.8947368421052632,F,42,14,1964-04-19,Other,West
+Dreamz Herd,Cheerleading Coach,North Carolina,2,0.8947368421052632,M,25,14,1981-12-15,Education,East Coast
+Earl Cole,Advertising Executive,California,1,0.9473684210526316,M,35,14,1971-04-09,Other,West
+Chicken Morris,Chicken Farmer,Virginia,16,0.0,M,47,15,1959-09-02,Agriculture,East Coast
+Ashley Massaro,Professional Wrestler,New York,15,0.0625,F,28,15,1979-05-26,Other,East Coast
+Leslie Nease,Christian Radio Host,South Carolina,14,0.125,F,38,15,1969-03-25,Other,East Coast
+Dave Cruser,Former Model,California,13,0.1875,M,37,15,1969-10-26,Other,West
+Aaron Reisberger,Surfing Instructor,California,12,0.25,M,32,15,1975-04-25,Other,West
+Sherea Lloyd,Elementary Teacher,Georgia,11,0.3125,F,26,15,1981-07-31,Education,East Coast
+Jaime Dugan,Student,South Carolina,10,0.375,F,22,15,1985-06-30,Student,East Coast
+Jean-Robert Bellande,Profession Poker Player,Nevada,9,0.4375,M,36,15,1970-09-17,Other,West
+Frosti Zernow,Student/Athlete,Illinois,8,0.5,M,20,15,1987-02-15,Student,Midwest
+James Clement,Gravedigger,Louisiana,7,0.5625,M,30,15,1977-03-09,Other,South
+Erik Huffman,Musician,Tennessee,6,0.625,M,26,15,1981-01-31,Arts,South
+Peih-Gee Law,Jeweler,California,5,0.6875,F,29,15,1978-04-07,Other,West
+Denise Martin,School Lunch Lady,Massachusetts,4,0.75,F,40,15,1967-05-05,Other,East Coast
+Amanda Kimmel,Hiking Guide,Montana,3,0.8125,F,23,15,1984-08-03,Other,West
+Courtney Yates,Waitress,New York,2,0.875,F,26,15,1981-03-26,Other,East Coast
+Todd Herzog,Flight Attendant,Utah,1,0.9375,M,22,15,1985-01-29,Other,West
+Jon Dalton,Art Consultant,Virginia,20,0.0,M,33,16,1974-03-11,Other,East Coast
+Mary Sartain,Real Estate Manager,California,19,0.05,F,29,16,1978-11-11,Business,West
+Yau-Man Chan,Internet Technology Director,California,18,0.0999999999999999,M,55,16,1952-08-26,Other,West
+Mikey Bortone,Aspiring Writer,California,17,0.15,M,34,16,1973-12-29,Other,West
+Joel Anderson,Firefighter,Arizona,16,0.1999999999999999,M,32,16,1975-06-01,Other,West
+Jonathan Penner,Writer,California,15,0.25,M,45,16,1962-03-05,Other,West
+Chet Welch,Pageant Coach,Pennsylvania,14,0.3,M,48,16,1959-10-22,Education,East Coast
+Kathy Sleckman,Golf Course Vendor,Illinois,13,0.35,F,45,16,1962-08-14,Other,Midwest
+Tracy Hughes-Wolf,Residential Builder,Virginia,12,0.4,F,43,16,1964-07-09,Other,East Coast
+Ami Cusack,Nanny,Colorado,11,0.4499999999999999,F,34,16,1973-01-25,Other,West
+Eliza Orlins,Law School Student,New York,10,0.5,F,25,16,1982-12-25,Student,East Coast
+Ozzy Lusth,Photographer,California,9,0.55,M,26,16,1981-08-23,Other,West
+Jason Siska,Gymnastics Coach,Illinois,8,0.6,M,22,16,1985-03-04,Education,Midwest
+James Clement,Gravedigger,Louisiana,7,0.65,M,30,16,1977-03-09,Other,South
+Alexis Jones,Motivational Speaker,California,6,0.7,F,24,16,1983-07-06,Other,West
+Erik Reichenbach,Ice Cream Scooper,Michigan,5,0.75,M,22,16,1985-11-27,Other,Midwest
+Natalie Bolton,Personal Trainer,California,4,0.8,F,32,16,1975-12-31,Other,West
+Cirie Fields,Nurse,Connecticut,3,0.85,F,37,16,1970-07-18,Healthcare,East Coast
+Amanda Kimmel,Aspiring Designer,California,2,0.9,F,23,16,1984-08-03,Other,West
+Parvati Shallow,Charity Organizer,California,1,0.95,F,25,16,1982-09-21,Other,West
+Michelle Chase,Music Producer,California,18,0.0,F,24,17,1984-03-07,Other,West
+Gillian Larson,Retired Nurse,California,17,0.0555555555555555,F,61,17,1947-02-24,Healthcare,West
+Paloma Soto-Castillo,Student,California,16,0.1111111111111111,F,24,17,1984-08-24,Student,West
+Jacquie Berg,Medical Saleswoman,California,15,0.1666666666666666,F,25,17,1982-09-10,Business,West
+GC Brown,Maintenance Man,Oregon,14,0.2222222222222222,M,26,17,1982-07-13,Other,West
+Kelly Czarnecki,Retail Saleswoman,Illinois,13,0.2777777777777778,F,22,17,1986-04-04,Business,Midwest
+Ace Gordon,Jewelry Salesman/Photographer,Florida,12,0.3333333333333333,M,27,17,1980-09-03,Business,East Coast
+Dan Kay,Attorney,Massachusetts,11,0.3888888888888888,M,32,17,1976-06-30,Law,East Coast
+Marcus Lehman,Doctor,Georgia,10,0.4444444444444444,M,28,17,1979-10-03,Healthcare,East Coast
+Charlie Herschel,Attorney,New York,9,0.5,M,29,17,1979-05-12,Law,East Coast
+Randy Bailey,Wedding Videographer,Missouri,8,0.5555555555555556,M,49,17,1959-03-31,Other,Midwest
+Corinne Kaplan,Pharmaceutical Saleswoman,California,7,0.6111111111111112,F,29,17,1979-01-17,Business,West
+Crystal Cox,Olympic Gold Medalist,North Carolina,6,0.6666666666666667,F,29,17,1979-03-28,Other,East Coast
+Ken Hoang,Professional Gamer,California,5,0.7222222222222222,M,22,17,1985-10-10,Other,West
+Matty Whitmore,Personal Trainer,California,4,0.7777777777777778,M,29,17,1978-12-18,Other,West
+Sugar Kiper,Pin-Up Model,New York,3,0.8333333333333334,F,29,17,1979-02-22,Other,East Coast
+Susie Smith,Hairdresser,Iowa,2,0.8888888888888888,F,47,17,1960-10-24,Other,Midwest
+Bob Crowley,Physics Teacher,Maine,1,0.9444444444444444,M,57,17,1951-02-25,Education,East Coast
+Carolina Eastwood,Bartender,California,16,0.0,F,26,18,1981-10-27,Hospitality,West
+Candace Smith,Attorney,Ohio,15,0.0625,F,31,18,1977-02-01,Law,Midwest
+Jerry Sims,U.S. Army Sergeant,South Carolina,14,0.125,M,49,18,1959-05-18,Other,East Coast
+Sandy Burgin,Bus Driver,Kentucky,13,0.1875,F,53,18,1955-07-01,Other,South
+Spencer Duhm,Student,Florida,12,0.25,M,19,18,1989-12-20,Student,East Coast
+Sydney Wheeler,Model,North Carolina,11,0.3125,F,24,18,1984-05-11,Other,East Coast
+Joe Dowdle,Real Estate Salesman,Texas,10,0.375,M,26,18,1982-06-29,Business,South
+Brendan Synnott,Entrepreneur,New York,9,0.4375,M,30,18,1978-09-28,Business,East Coast
+Tyson Apostol,Professional Cyclist,Utah,8,0.5,M,29,18,1979-06-17,Other,West
+Sierra Reed,Model,California,7,0.5625,F,23,18,1985-09-29,Other,West
+Debbie Beebe,School Principal,Alabama,6,0.625,F,46,18,1962-09-28,Other,South
+Coach Wade,Soccer Coach/Musician,Missouri,5,0.6875,M,37,18,1971-09-18,Education,Midwest
+Taj Johnson-George,Former Pop Star,Tennessee,4,0.75,F,37,18,1971-04-29,Other,South
+Erinn Lobdell,Hairdresser,Wisconsin,3,0.8125,F,26,18,1982-10-21,Other,Midwest
+Stephen Fishbach,Corporate Consultant,New York,2,0.875,M,29,18,1979-01-24,Other,East Coast
+J.T. Thomas,Cattle Rancher,Alabama,1,0.9375,M,24,18,1984-06-23,Agriculture,South
+Marisa Calihan,Student,Ohio,20,0.0,F,26,19,1983-07-26,Student,Midwest
+Mike Borassi,Personal Chef,California,19,0.05,M,62,19,1947-03-13,Hospitality,West
+Betsy Bolan,Police Officer,New Hampshire,18,0.0999999999999999,F,48,19,1961-03-20,Other,East Coast
+Ben Browning,Bar Manager,California,17,0.15,M,28,19,1980-08-28,Other,West
+Yasmin Giles,Hairstylist,California,16,0.1999999999999999,F,33,19,1975-08-29,Other,West
+Ashley Trainer,Spa Saleswoman,Minnesota,15,0.25,F,22,19,1987-02-27,Business,Midwest
+Russell Swan,Attorney,Pennsylvania,14,0.3,M,42,19,1967-02-17,Law,East Coast
+Liz Kim,Urban Planner,New York,13,0.35,F,33,19,1975-11-24,Other,East Coast
+Erik Cardona,Bartender,California,12,0.4,M,28,19,1981-04-13,Hospitality,West
+Kelly Sharbaugh,Hairstylist,California,11,0.4499999999999999,F,25,19,1983-12-26,Other,West
+Laura Morett,Office Manager,Oregon,10,0.5,F,39,19,1969-07-30,Other,West
+John Fincher,Rocket Scientist,California,9,0.55,M,25,19,1983-08-16,Other,West
+Dave Ball,Fitness Instructor,California,8,0.6,M,38,19,1970-08-13,Other,West
+Monica Padilla,Law Student,California,7,0.65,F,25,19,1984-07-14,Student,West
+Shambo Waters,Saleswoman,Washington,6,0.7,F,45,19,1964-04-25,Business,West
+Jaison Robinson,Law Student,Illinois,5,0.75,M,28,19,1980-09-25,Student,Midwest
+Brett Clouser,T-shirt Designer,California,4,0.8,M,23,19,1985-12-27,Other,West
+Mick Trimming,Doctor,California,3,0.85,M,33,19,1976-05-10,Healthcare,West
+Russell Hantz,Oil Company Owner,Texas,2,0.9,M,36,19,1972-10-10,Other,South
+Natalie White,Pharmaceutical Saleswoman,Arkansas,1,0.95,F,26,19,1983-04-22,Business,South
+Sugar Kiper,Pin-Up Model,California,20,0.0,F,30,20,1979-02-22,Other,West
+Stephenie LaGrossa,Pharmaceutical Sales Representative,Pennsylvania,19,0.05,F,29,20,1979-12-06,Business,East Coast
+Randy Bailey,Wedding Videographer,Missouri,18,0.0999999999999999,M,50,20,1959-03-31,Other,Midwest
+Cirie Fields,Nurse,Connecticut,17,0.15,F,39,20,1970-07-18,Healthcare,East Coast
+Tom Westman,Motivational Speaker,New York,16,0.1999999999999999,M,45,20,1964-01-04,Other,East Coast
+Tyson Apostol,Former Professional Cyclist,Utah,15,0.25,M,29,20,1979-06-17,Other,West
+James Clement,Gravedigger,Louisiana,14,0.3,M,32,20,1977-03-09,Other,South
+Rob Mariano,Construction Worker,Florida,13,0.35,M,33,20,1975-12-25,Other,East Coast
+Coach Wade,Soccer Coach/Musician,California,12,0.4,M,38,20,1971-09-18,Education,West
+Courtney Yates,Waitress,New York,11,0.4499999999999999,F,29,20,1981-03-26,Other,East Coast
+J.T. Thomas,Cattle Rancher,Alabama,10,0.5,M,25,20,1984-06-23,Agriculture,South
+Amanda Kimmel,Aspiring Designer,California,9,0.55,F,25,20,1984-08-03,Other,West
+Candice Cody,Physician,District of Columbia,8,0.6,F,27,20,1982-11-12,Other,East Coast
+Danielle DiLorenzo,Medical Sales Representative,Florida,7,0.65,F,28,20,1981-06-03,Business,East Coast
+Rupert Boneham,Troubled Teens Mentor,Indiana,6,0.7,M,45,20,1964-01-27,Other,Midwest
+Colby Donaldson,Actor,Texas,5,0.75,M,35,20,1974-04-01,Arts,South
+Jerri Manthey,Actress,California,4,0.8,F,38,20,1970-09-05,Other,West
+Russell Hantz,Oil Company Owner,Texas,3,0.85,M,36,20,1972-10-10,Other,South
+Parvati Shallow,Charity Organizer,California,2,0.9,F,27,20,1982-09-21,Other,West
+Sandra Diaz-Twine,Office Assistant,North Carolina,1,0.95,F,35,20,1974-07-30,Other,East Coast
+Wendy DeSmidt-Kohlhoff,Goat Rancher,Montana,20,0.0,F,48,21,1961-12-13,Agriculture,West
+Shannon Elkins,Pest Control Company Owner,Louisiana,19,0.05,M,30,21,1979-12-04,Other,South
+Jimmy Johnson,Former NFL Coach,Florida,18,0.0999999999999999,M,67,21,1943-07-16,Education,East Coast
+Jimmy Tarantino,Commercial Fisherman,Massachusetts,17,0.15,M,48,21,1962-09-07,Other,East Coast
+Tyrone Davis,Firefighter,California,16,0.1999999999999999,M,42,21,1967-09-24,Other,West
+Kelly Bruno,Medical Student,North Carolina,15,0.25,F,26,21,1984-03-23,Student,East Coast
+Yve Rojas,Homemaker,Missouri,14,0.3,F,41,21,1969-03-09,Other,Midwest
+Jill Behm,ER Doctor,Pennsylvania,13,0.35,F,43,21,1967-01-18,Healthcare,East Coast
+Alina Wilson,Art Student,California,12,0.4,F,23,21,1987-02-20,Student,West
+Marty Piombo,Technology Executive,California,11,0.4499999999999999,M,48,21,1961-11-11,Other,West
+Brenda Lowe,Paddleboard Company Owner,Florida,10,0.5,F,27,21,1982-11-03,Other,East Coast
+NaOnka Mixon,P.E. Teacher,California,9,0.55,F,27,21,1983-02-17,Education,West
+Kelly Shinn,Nursing Student,Arizona,8,0.6,F,20,21,1990-05-05,Student,West
+Benry Henry,Club Promoter,California,7,0.65,M,24,21,1986-06-25,Other,West
+Jane Bright,Dog Trainer,North Carolina,6,0.7,F,56,21,1953-12-13,Other,East Coast
+Dan Lembo,Real Estate Executive,New York,5,0.75,M,63,21,1946-10-07,Business,East Coast
+Holly Hoffman,Swim Coach,South Dakota,4,0.8,F,44,21,1966-03-15,Education,Midwest
+Sash Lenahan,Real Estate Broker,New York,3,0.85,M,30,21,1979-11-22,Business,East Coast
+Chase Rice,Professional Racecar Jackman,North Carolina,2,0.9,M,24,21,1985-09-19,Other,East Coast
+Fabio Birza,Student,California,1,0.95,M,21,21,1989-06-12,Student,West
+Francesca Hogi,Attorney,District of Columbia,18,0.0,F,36,22,1974-11-03,Law,East Coast
+Russell Hantz,Oil Company Owner,Texas,17,0.0555555555555555,M,38,22,1972-10-10,Other,South
+Kristina Kell,Law Student,California,16,0.1111111111111111,F,46,22,1964-12-26,Student,West
+Krista Klumpp,Pharmaceutical Representative,South Carolina,15,0.1666666666666666,F,25,22,1985-07-27,Other,East Coast
+Stephanie Valencia,Waitress,California,14,0.2222222222222222,F,26,22,1985-02-03,Other,West
+Sarita White,Visual Effects Producer,California,13,0.2777777777777778,F,36,22,1974-10-02,Other,West
+David Murphy,Defense Attorney,California,12,0.3333333333333333,M,31,22,1979-07-16,Law,West
+Julie Wolfe,Firefighter,California,11,0.3888888888888888,F,50,22,1960-05-11,Other,West
+Steve Wright,Ex-NFL Player,California,10,0.4444444444444444,M,51,22,1959-04-08,Other,West
+Ralph Kiser,Farmer,Virginia,9,0.5,M,45,22,1965-10-27,Agriculture,East Coast
+Grant Mattos,Ex-NFL Player,California,8,0.5555555555555556,M,29,22,1981-03-12,Other,West
+Matt Elrod,Pre-Med Student,Tennessee,7,0.6111111111111112,M,22,22,1988-10-02,Student,South
+Mike Chiesl,Iraq War Veteran,California,6,0.6666666666666667,M,31,22,1979-09-15,Other,West
+Andrea Boehlke,Student,Wisconsin,5,0.7222222222222222,F,21,22,1989-05-10,Student,Midwest
+Ashley Underwood,Nurse,Maine,4,0.7777777777777778,F,25,22,1985-02-08,Healthcare,East Coast
+Natalie Tenerelli,Professional Dancer,California,3,0.8333333333333334,F,19,22,1991-05-06,Other,West
+Phillip Sheppard,Former Federal Agent?,California,2,0.8888888888888888,M,52,22,1958-03-12,Other,West
+Rob Mariano,Construction Worker,Florida,1,0.9444444444444444,M,34,22,1975-12-25,Other,East Coast
+Semhar Tadesse,Spoken Word Artist,California,18,0.0,F,24,23,1986-09-12,Arts,West
+Mark Caruso,Retired NYPD Detective,New York,17,0.0555555555555555,M,48,23,1963-07-07,Retired,East Coast
+Stacey Powell,Mortician,Texas,16,0.1111111111111111,F,44,23,1967-11-21,Other,South
+Elyse Umemoto,Dance Team Manager,Nevada,15,0.1666666666666666,F,27,23,1984-05-10,Other,West
+Mikayla Wingle,Lingerie Football Player,Florida,14,0.2222222222222222,F,22,23,1989-05-31,Other,East Coast
+Christine Shields Markoski,Teacher,New York,13,0.2777777777777778,F,39,23,1971-06-17,Education,East Coast
+Jim Rice,Medical Marijuana Dispenser,Colorado,12,0.3333333333333333,M,35,23,1975-09-14,Other,West
+Keith Tollefson,Water Treatment Technician,Minnesota,11,0.3888888888888888,M,26,23,1985-10-01,Engineering/Technical,Midwest
+Dawn Meehan,English Profressor,Utah,10,0.4444444444444444,F,41,23,1970-06-29,Other,West
+Whitney Duncan,Country Music Singer,Tennessee,9,0.5,F,26,23,1984-08-03,Other,South
+John Cochran,Harvard Law Student,D.C.,8,0.5555555555555556,M,24,23,1987-01-17,Student,Unknown
+Edna Ma,Anesthesiologist,California,7,0.6111111111111112,F,35,23,1975-08-22,Other,West
+Brandon Hantz,Oil Tanker Crewman,Texas,6,0.6666666666666667,M,19,23,1991-10-15,Other,South
+Rick Nelson,Rancher,Utah,5,0.7222222222222222,M,51,23,1959-10-24,Agriculture,West
+Ozzy Lusth,Photographer,California,4,0.7777777777777778,M,30,23,1981-08-23,Other,West
+Albert Destrade,Baseball/Dating Coach,Florida,3,0.8333333333333334,M,26,23,1985-03-31,Education,East Coast
+Coach Wade,Soccer Coach/Musician,California,2,0.8888888888888888,M,39,23,1971-09-18,Education,West
+Sophie Clarke,Medical Student,New York,1,0.9444444444444444,F,22,23,1989-07-10,Student,East Coast
+Kourtney Moon,Motorcycle Repairwoman,Texas,18,0.0,F,29,24,1982-02-27,Other,South
+Nina Acosta,Retired LAPD Officer,California,17,0.0555555555555555,F,51,24,1960-04-03,Retired,West
+Matt Quinlan,Attorney,California,16,0.1111111111111111,M,33,24,1978-04-05,Law,West
+Bill Posley,Stand-Up Comedian,California,15,0.1666666666666666,M,28,24,1983-09-28,Other,West
+Monica Culpepper,Ex-NFL Player's Wife,Florida,14,0.2222222222222222,F,41,24,1970-06-15,Other,East Coast
+Colton Cumbie,Student,Alabama,13,0.2777777777777778,M,21,24,1990-11-22,Student,South
+Jonas Otsuji,Sushi Chef,Utah,12,0.3333333333333333,M,37,24,1974-03-25,Hospitality,West
+Michael Jefferson,Banker,Washington,11,0.3888888888888888,M,30,24,1981-08-29,Other,West
+Jay Byars,Model,South Carolina,10,0.4444444444444444,M,25,24,1986-11-05,Other,East Coast
+Leif Manson,Phlebotomist,California,9,0.5,M,27,24,1984-02-01,Other,West
+Troyzan Robertson,Swimsuit Photographer,Florida,8,0.5555555555555556,M,50,24,1961-07-30,Other,East Coast
+Kat Edorsson,Timeshare Representative,Florida,7,0.6111111111111112,F,22,24,1989-06-22,Other,East Coast
+Tarzan Smith,Plastic Surgeon,Texas,6,0.6666666666666667,M,64,24,1947-12-12,Healthcare,South
+Alicia Rosa,Special Education Teacher,Illinois,5,0.7222222222222222,F,25,24,1987-01-11,Education,Midwest
+Christina Cha,Career Consultant,California,4,0.7777777777777778,F,29,24,1982-09-26,Other,West
+Chelsea Meissner,Medical Saleswoman,South Carolina,3,0.8333333333333334,F,26,24,1985-06-13,Business,East Coast
+Sabrina Thompson,High School Teacher,New York,2,0.8888888888888888,F,33,24,1978-03-06,Education,East Coast
+Kim Spradlin-Wolfe,Bridal Shop Owner,Texas,1,0.9444444444444444,F,29,24,1983-01-30,Other,South
+Zane Knight,Tire Repairman,Virginia,18,0.0,M,28,25,1984-02-20,Other,East Coast
+Roxy Morris,Seminary Student,New York,17,0.0555555555555555,F,28,25,1984-06-03,Student,East Coast
+Angie Layton,Model/Student,Utah,16,0.1111111111111111,F,20,25,1991-10-08,Student,West
+Russell Swan,Attorney,Pennsylvania,15,0.1666666666666666,M,45,25,1967-02-17,Law,East Coast
+Dana Lambert,Cosmetologist,North Carolina,14,0.2222222222222222,F,32,25,1979-12-13,Other,East Coast
+Sarah Dawson,Insurance Saleswoman,Maryland,13,0.2777777777777778,F,28,25,1983-11-15,Business,East Coast
+Katie Hanson,Former Miss Delaware,Delaware,12,0.3333333333333333,F,22,25,1989-11-29,Other,East Coast
+R.C. Saint-Amour,Investment Banker,New York,11,0.3888888888888888,F,27,25,1985-05-10,Other,East Coast
+Jeff Kent,Former MLB Player,Texas,10,0.4444444444444444,M,44,25,1968-03-07,Other,South
+Artis Silvester,Computer Engineer,Louisiana,9,0.5,M,53,25,1959-04-18,Engineering/Technical,South
+Pete Yurkowski,Engineer Graduate/Model,New Jersey,8,0.5555555555555556,M,24,25,1988-03-03,Engineering/Technical,East Coast
+Jonathan Penner,Writer,California,7,0.6111111111111112,M,50,25,1962-03-05,Other,West
+Carter Williams,Track Coach,Kansas,6,0.6666666666666667,M,24,25,1987-05-26,Education,Midwest
+Abi-Maria Gomes,Business Student,California,5,0.7222222222222222,F,32,25,1979-10-21,Student,West
+Malcolm Freberg,Bartender,California,4,0.7777777777777778,M,25,25,1987-05-07,Hospitality,West
+Lisa Whelchel,Former TV Teen Star,Texas,2,0.8888888888888888,F,49,25,1963-05-29,Other,South
+Michael Skupin,Professional Speaker,Michigan,2,0.8888888888888888,M,50,25,1962-01-29,Other,Midwest
+Denise Stapley,Sex Therapist,Iowa,1,0.9444444444444444,F,41,25,1971-01-01,Healthcare,Midwest
+Francesca Hogi,Attorney,New York,20,0.0,F,38,26,1974-11-03,Law,East Coast
+Allie Pohevitz,Bartender,New York,19,0.05,F,25,26,1987-12-24,Hospitality,East Coast
+Hope Driskill,Pre-Law Student,Missouri,18,0.0999999999999999,F,23,26,1989-07-06,Student,Midwest
+Shamar Thomas,Iraq War Veteran,New York,17,0.15,M,27,26,1985-09-27,Other,East Coast
+Laura Alexander,Administrative Officer,Washington DC,16,0.1999999999999999,F,23,26,1989-09-12,Other,Unknown
+Brandon Hantz,Chemical Disposal,Texas,15,0.25,M,21,26,1991-10-15,Other,South
+Matt Bischoff,BMX Bike Salesman,Ohio,14,0.3,M,38,26,1974-04-04,Business,Midwest
+Julia Landauer,Racecar Driver,California,13,0.35,F,21,26,1991-11-12,Other,West
+Corinne Kaplan,Pharmaceutical Sales,California,12,0.4,F,33,26,1979-01-17,Business,West
+Michael Snow,Event Planner,New York,11,0.4499999999999999,M,44,26,1968-08-30,Other,East Coast
+Phillip Sheppard,Software Sales,California,10,0.5,M,54,26,1958-03-12,Business,West
+Malcolm Freberg,Bartender,California,9,0.55,M,26,26,1987-05-07,Hospitality,West
+Reynold Toepfer,Real Estate Salesman,California,8,0.6,M,30,26,1982-10-06,Business,West
+Andrea Boehlke,Entertainment Host and Writer,New York,7,0.65,F,23,26,1989-05-10,Other,East Coast
+Brenda Lowe,Paddleboard Company Owner,Florida,6,0.7,F,30,26,1982-11-03,Other,East Coast
+Erik Reichenbach,Comic Book Artist,California,5,0.75,M,27,26,1985-11-27,Arts,West
+Eddie Fox,Fireman/EMT,New Jersey,4,0.8,M,23,26,1989-04-15,Other,East Coast
+Sherri Biethman,Fast Food Franchisee,Idaho,2,0.9,F,41,26,1971-09-09,Other,West
+Dawn Meehan,English professor,Utah,2,0.9,F,42,26,1970-06-29,Education,West
+John Cochran,Harvard Law Student,Washington DC,1,0.95,M,25,26,1987-01-17,Student,Unknown
+Rupert Boneham,Troubled Teens Mentor,Indiana,20,0.0,M,49,27,1964-01-27,Other,Midwest
+Colton Cumbie,Student Teacher,Alabama,19,0.05,M,22,27,1990-11-22,Education,South
+Rachel Foulger,Cocktail Waitress/Graphic Designer,Utah,18,0.0999999999999999,F,33,27,1979-07-28,Other,West
+Marissa Peterson,Student,North Carolina,17,0.15,F,21,27,1991-09-25,Student,East Coast
+Candice Cody,Physician,Washington DC,16,0.1999999999999999,F,30,27,1982-11-12,Other,Unknown
+Brad Culpepper,Attorney/Retired NFL Player,Florida,15,0.25,M,44,27,1969-05-08,Law,East Coast
+Kat Edorsson,Full-Time Student/Sales,Florida,14,0.3,F,23,27,1989-06-22,Business,East Coast
+John Cody,Physician/Army Orthopedic Surgery Resident,Washington DC,13,0.35,M,30,27,1983-05-12,Other,Unknown
+Laura Boneham,Merchandiser,Indiana,12,0.4,F,44,27,1968-08-29,Other,Midwest
+Aras Baskauskas,Musician,California,11,0.4499999999999999,M,31,27,1981-09-26,Arts,West
+Vytas Baskauskas,Yoga Instructor/Math Professor,California,10,0.5,M,33,27,1979-12-08,Education,West
+Caleb Bankston,Post Office Manager/Farmer,Alabama,9,0.55,M,26,27,1987-03-26,Agriculture,South
+Katie Collins,Hedge Fund Support,New York,8,0.6,F,25,27,1987-06-27,Other,East Coast
+Hayden Moss,Real Estate,Arizona,7,0.65,M,27,27,1986-05-27,Business,West
+Laura Morett,Fitness Instructor,Oregon,6,0.7,F,43,27,1969-07-30,Other,West
+Ciera Eastin,Cosmetology Student,Oregon,5,0.75,F,24,27,1989-03-05,Student,West
+Tina Wesson,Motivational Speaker,Tennessee,4,0.8,F,52,27,1960-12-26,Other,South
+Gervase Peterson,Cigar Lounge Owner,New Jersey,3,0.85,M,43,27,1969-11-02,Other,East Coast
+Monica Culpepper,Homemaker,Florida,2,0.9,F,42,27,1970-06-15,Other,East Coast
+Tyson Apostol,Former Pro Cyclist/Shop Manager,Utah,1,0.95,M,34,27,1979-06-17,Other,West
+David Samson,Miami Marlins President,Florida,18,0.0,M,45,28,1968-02-26,Other,East Coast
+Garrett Adelstein,Professional Poker Player,California,17,0.0555555555555555,M,27,28,1986-05-16,Other,West
+Brice Johnston,Social Worker,Pennsylvania,16,0.1111111111111111,M,27,28,1986-02-20,Other,East Coast
+J'Tia Taylor,Nuclear Engineer,Illinois,15,0.1666666666666666,F,31,28,1981-09-01,Engineering/Technical,Midwest
+Cliff Robinson,Former NBA All-Star,New Jersey,14,0.2222222222222222,M,46,28,1966-12-16,Other,East Coast
+Lindsey Ogle,Hairstylist,Indiana,13,0.2777777777777778,F,29,28,1983-09-04,Other,Midwest
+Alexis Maxwell,Student,Illinois,12,0.3333333333333333,F,21,28,1992-03-17,Student,Midwest
+Sarah Lacina,Police Officer,Iowa,11,0.3888888888888888,F,29,28,1984-07-09,Other,Midwest
+Morgan McLeod,Ex-NFL Cheerleader,California,10,0.4444444444444444,F,21,28,1992-07-09,Other,West
+LJ McKanas,Horse Trainer,Massachusetts,9,0.5,M,34,28,1979-01-08,Other,East Coast
+Jeremiah Wood,Male Model,North Carolina,8,0.5555555555555556,M,34,28,1979-06-15,Other,East Coast
+Jefra Bland,Miss Kentucky Teen USA,Kentucky,7,0.6111111111111112,F,22,28,1990-07-02,Other,South
+Tasha Fox,Accountant,Missouri,6,0.6666666666666667,F,37,28,1977-01-03,Other,Midwest
+Trish Hegarty,Pilates Teacher,Massachusetts,5,0.7222222222222222,F,48,28,1965-10-09,Education,East Coast
+Spencer Bledsoe,Economics Student,Illinois,4,0.7777777777777778,M,21,28,1992-06-12,Student,Midwest
+Kass McQuillen,Attorney,California,3,0.8333333333333334,F,41,28,1971-11-08,Law,West
+Woo Hwang,Martial Arts Instructor,California,2,0.8888888888888888,M,29,28,1984-03-16,Other,West
+Tony Vlachos,Police Officer,New Jersey,1,0.9444444444444444,M,39,28,1973-09-10,Other,East Coast
+Nadiya Anderson,Crossfit Coach/Project Coordinator,New Jersey,18,0.0,F,28,29,1986-04-11,Education,East Coast
+Val Collins,Police Officer,Massachusetts,17,0.0555555555555555,F,35,29,1978-11-08,Other,East Coast
+John Rocker,Former MLB Player,Georgia,16,0.1111111111111111,M,39,29,1974-10-17,Other,East Coast
+Drew Christy,Traveling Sales Representative,Florida,15,0.1666666666666666,M,25,29,1989-05-18,Business,East Coast
+Kelley Wentworth,Marketing Manager,Washington,14,0.2222222222222222,F,28,29,1986-06-07,Other,West
+Dale Wentworth,Farmer,Washington,13,0.2777777777777778,M,55,29,1959-03-07,Agriculture,West
+Julie McGee,Model/Spray Tan Business Owner,Georgia,12,0.3333333333333333,F,34,29,1980-01-24,Other,East Coast
+Josh Canfield,Singer/Actor/Writer,New York,11,0.3888888888888888,M,32,29,1981-07-01,Arts,East Coast
+Jeremy Collins,Firefighter,Massachusetts,10,0.4444444444444444,M,36,29,1978-04-16,Other,East Coast
+Wes Nale,Firefighter,Louisiana,9,0.5,M,24,29,1990-06-19,Other,South
+Reed Kelly,Broadway Performer/Model/Aerialist,New York,8,0.5555555555555556,M,31,29,1982-09-05,Arts,East Coast
+Alec Christy,Student,Florida,7,0.6111111111111112,M,22,29,1991-09-07,Student,East Coast
+Jon Misch,Financial Assistant,Michigan,6,0.6666666666666667,M,26,29,1988-03-29,Other,Midwest
+Baylor Wilson,Student,Tennessee,5,0.7222222222222222,F,20,29,1994-01-25,Student,South
+Keith Nale,Firefighter,Louisiana,4,0.7777777777777778,M,53,29,1960-08-16,Other,South
+Missy Payne,Competitive Cheerleading Gym Owner,Texas,3,0.8333333333333334,F,47,29,1967-06-10,Other,South
+Jaclyn Schultz,Media Buyer,Michigan,2,0.8888888888888888,F,25,29,1988-08-16,Other,Midwest
+Natalie Anderson,Crossfit Coach/Physical Therapy Student,New Jersey,1,0.9444444444444444,F,28,29,1986-04-11,Education,East Coast
+So Kim,Retail Buyer,California,18,0.0,F,31,30,1983-01-13,Other,West
+Vince Sly,Coconut Vendor,California,17,0.0555555555555555,M,32,30,1982-02-16,Other,West
+Nina Poersch,Hearing Advocate,California,16,0.1111111111111111,F,51,30,1963-01-17,Other,West
+Lindsey Cascaddan,Hairdresser,Florida,15,0.1666666666666666,F,24,30,1989-08-24,Other,East Coast
+Max Dawson,Media Consultant,California,14,0.2222222222222222,M,37,30,1977-03-31,Other,West
+Joaquin Souberbielle,Marketing Director,New York,13,0.2777777777777778,M,27,30,1986-08-16,Other,East Coast
+Kelly Remington,State Trooper,New York,12,0.3333333333333333,F,44,30,1970-04-27,Other,East Coast
+Hali Ford,Law Student,California,11,0.3888888888888888,F,25,30,1989-07-20,Student,West
+Joe Anglim,Jewelry Designer,Arizona,10,0.4444444444444444,M,25,30,1988-09-30,Other,West
+Jenn Brown,Sailing Instructor,California,9,0.5,F,22,30,1992-01-27,Other,West
+Shirin Oskooi,Yahoo! Executive,California,8,0.5555555555555556,F,31,30,1983-02-25,Other,West
+Tyler Fredrickson,Ex-Talent Agent Assistant,California,7,0.6111111111111112,M,33,30,1981-02-26,Other,West
+Dan Foley,Postal Worker,Maine,6,0.6666666666666667,M,47,30,1967-02-05,Other,East Coast
+Sierra Dawn Thomas,Barrel Racer,Utah,5,0.7222222222222222,F,27,30,1986-12-18,Other,West
+Rodney Lavoie,General Contractor,Massachusetts,4,0.7777777777777778,F,24,30,1989-09-02,Arts,East Coast
+Will Sims II,YouTube Sensation,California,2,0.8888888888888888,M,41,30,1972-08-13,Other,West
+Carolyn Rivera,Corporate Executive,Florida,2,0.8888888888888888,F,52,30,1961-10-07,Other,East Coast
+Mike Holloway,Oil Driller,Texas,1,0.9444444444444444,M,38,30,1976-07-25,Other,South
+Vytas Baskauskas,Yoga Instructor/Math Professor,California,20,0.0,M,35,31,1979-12-08,Education,West
+Shirin Oskooi,Yahoo! Executive,California,19,0.05,F,32,31,1983-02-25,Other,West
+Peih-Gee Law,Jeweler,California,18,0.0999999999999999,F,37,31,1978-04-07,Other,West
+Jeff Varner,Internet Projects Manager,North Carolina,17,0.15,M,49,31,1966-04-16,Other,East Coast
+Monica Padilla,Law Student,New York,16,0.1999999999999999,F,30,31,1984-07-14,Student,East Coast
+Terry Deitz,Pilot,Connecticut,15,0.25,M,55,31,1959-10-10,Other,East Coast
+Woo Hwang,Martial Arts Instructor,California,14,0.3,M,31,31,1984-03-16,Other,West
+Kass McQuillen,Attorney,California,13,0.35,F,42,31,1971-11-08,Law,West
+Andrew Savage,Attorney,California,12,0.4,M,51,31,1963-07-29,Law,West
+Kelly Wiglesworth,River Guide,North Carolina,11,0.4499999999999999,F,37,31,1977-06-24,Other,East Coast
+Ciera Eastin,Cosmetology Student,Oregon,10,0.5,F,26,31,1989-03-05,Student,West
+Stephen Fishbach,Corporate Consultant,New York,9,0.55,M,36,31,1979-01-24,Other,East Coast
+Joe Anglim,Jewelry Designer,Arizona,8,0.6,M,25,31,1988-09-30,Other,West
+Abi-Maria Gomes,Business Student,California,7,0.65,F,35,31,1979-10-21,Student,West
+Kimmi Kappenberg,Bartender,Texas,6,0.7,F,42,31,1972-11-11,Hospitality,South
+Keith Nale,Firefighter,Louisiana,5,0.75,M,54,31,1960-08-16,Other,South
+Kelley Wentworth,Marketing Manager,Washington,4,0.8,F,29,31,1986-06-07,Other,West
+Spencer Bledsoe,Economics Student,Illinois,2,0.9,M,22,31,1992-06-12,Student,Midwest
+Tasha Fox,Accountant,Missouri,2,0.9,F,39,31,1977-01-03,Other,Midwest
+Jeremy Collins,Firefighter,Massachusetts,1,0.95,M,37,31,1978-04-16,Other,East Coast
+Darnell Hamilton,Postal Worker,Illinois,18,0.0,M,27,32,1988-02-08,Other,Midwest
+Jennifer Lanzetti,Contractor,Utah,17,0.0555555555555555,F,38,32,1977-07-14,Arts,West
+Liz Markham,Quantitative Strategist,New York,16,0.1111111111111111,F,27,32,1988-08-14,Other,East Coast
+Caleb Reynolds,Army Veteran,Kentucky,15,0.1666666666666666,M,28,32,1987-11-27,Other,South
+Alecia Holden,Real Estate Agent,Texas,14,0.2222222222222222,F,24,32,1991-08-03,Business,South
+Anna Khait,Professional Poker Player,New York,13,0.2777777777777778,F,26,32,1988-09-17,Other,East Coast
+Peter Baggenstos,ER Doctor,Minnesota,12,0.3333333333333333,M,34,32,1980-07-21,Healthcare,Midwest
+Neal Gottlieb,Ice Cream Entrepreneur,California,11,0.3888888888888888,M,38,32,1977-02-03,Business,West
+Nick Maiorano,Personal Trainer,California,10,0.4444444444444444,M,30,32,1985-01-28,Other,West
+Debbie Wanner,Chemist,Pennsylvania,9,0.5,F,49,32,1965-11-21,Other,East Coast
+Scot Pollard,Former NBA Player,Indiana,8,0.5555555555555556,M,40,32,1975-02-12,Other,Midwest
+Julia Sokolowski,College Student,Massachusetts,7,0.6111111111111112,F,19,32,1996-04-08,Student,East Coast
+Kyle Jason,Bounty Hunter,Michigan,6,0.6666666666666667,M,31,32,1984-07-16,Other,Midwest
+Joe del Campo,Former FBI Agent,Florida,5,0.7222222222222222,M,71,32,1943-07-04,Other,East Coast
+Cydney Gillon,Bodybuilder,Georgia,4,0.7777777777777778,F,23,32,1992-09-14,Other,East Coast
+Tai Trang,Gardener,California,3,0.8333333333333334,M,51,32,1964-03-23,Other,West
+Aubry Bracco,Social Media Marketer,Massachusetts,2,0.8888888888888888,F,29,32,1985-11-14,Other,East Coast
+Michele Fitzgerald,Bartender,New Jersey,1,0.9444444444444444,F,24,32,1990-05-05,Hospitality,East Coast
+Rachel Ako,Recruiting Director,California,20,0.0,F,37,33,1978-09-08,Other,West
+Mari Takahashi,Gamer,California,19,0.05,F,31,33,1984-11-02,Other,West
+Paul Wachter,Boat Mechanic,Florida,18,0.0999999999999999,M,52,33,1963-10-10,Engineering/Technical,East Coast
+Lucy Huang,Dietitian,California,17,0.15,F,42,33,1973-09-22,Other,West
+CeCe Taylor,Insurance Adjuster,California,16,0.1999999999999999,F,39,33,1977-03-02,Other,West
+Figgy Figueroa,Bartender,Tennessee,15,0.25,F,23,33,1992-12-12,Hospitality,South
+Michaela Bradshaw,Vacation Club Saleswoman,Texas,14,0.3,F,25,33,1990-12-01,Business,South
+Michelle Schubert,Missionary Recruiter,Washington,13,0.35,F,28,33,1988-03-11,Other,West
+Taylor Stocker,Snowboard Instructor,Idaho,12,0.4,M,24,33,1991-11-20,Other,West
+Chris Hammons,Trial Attorney,Oklahoma,11,0.4499999999999999,M,38,33,1978-04-01,Law,South
+Jessica Lewis,Assistant District Attorney,New York,10,0.5,F,37,33,1979-02-24,Law,East Coast
+Zeke Smith,Asset Manager,New York,9,0.55,M,28,33,1988-01-25,Other,East Coast
+Will Wahl,High School Student,New Jersey,8,0.6,M,18,33,1997-08-12,Student,East Coast
+Sunday Burquest,Youth Pastor,Minnesota,7,0.65,F,45,33,1971-02-06,Other,Midwest
+Jay Starrett,Real Estate Agent,Florida,6,0.7,M,27,33,1989-06-03,Business,East Coast
+Bret LaBelle,Police Sergeant,Massachusetts,5,0.75,M,42,33,1973-08-20,Other,East Coast
+David Wright,Television Writer,California,4,0.8,M,42,33,1974-02-06,Other,West
+Hannah Shapiro,Barista,California,2,0.9,F,24,33,1992-02-24,Other,West
+Ken McNickle,Model,Colorado,2,0.9,M,33,33,1982-09-20,Other,West
+Adam Klein,Homeless Shelter Manager,California,1,0.95,M,25,33,1991-01-15,Other,West
+Ciera Eastin,Cosmetology Student,Oregon,20,0.0,F,27,34,1989-03-05,Student,West
+Tony Vlachos,Police Officer,New Jersey,19,0.05,M,42,34,1973-09-10,Other,East Coast
+Caleb Reynolds,Army Veteran,Kentucky,18,0.0999999999999999,M,28,34,1987-11-27,Other,South
+Malcolm Freberg,Bartender,California,17,0.15,M,29,34,1987-05-07,Hospitality,West
+J.T. Thomas,Cattle Rancher,Alabama,16,0.1999999999999999,M,31,34,1984-06-23,Agriculture,South
+Sandra Diaz-Twine,Office Assistant,North Carolina,15,0.25,F,42,34,1974-07-30,Other,East Coast
+Jeff Varner,Internet Project Manager,North Carolina,14,0.3,M,50,34,1966-04-16,Other,East Coast
+Hali Ford,Law Student,Tennessee,13,0.35,F,26,34,1989-07-20,Student,South
+Ozzy Lusth,Photographer,California,12,0.4,M,34,34,1981-08-23,Other,West
+Debbie Wanner,Chemist,Pennsylvania,11,0.4499999999999999,F,51,34,1965-11-21,Other,East Coast
+Zeke Smith,Asset Manager,New York,10,0.5,M,28,34,1988-01-25,Other,East Coast
+Sierra Dawn Thomas,Barrel Racer,Utah,9,0.55,F,29,34,1986-12-18,Other,West
+Andrea Boehlke,Entertainment Host/Writer,New York,8,0.6,F,27,34,1989-05-10,Other,East Coast
+Michaela Bradshaw,Vacation Club Sales,Texas,7,0.65,F,25,34,1990-12-01,Business,South
+Cirie Fields,Nurse,Connecticut,6,0.7,F,45,34,1970-07-18,Healthcare,East Coast
+Aubry Bracco,Social Media Marketer,Massachusetts,5,0.75,F,30,34,1985-11-14,Other,East Coast
+Tai Trang,Gardener,California,4,0.8,M,52,34,1964-03-23,Other,West
+Troyzan Robertson,Swimsuit Photographer,Florida,3,0.85,M,54,34,1961-07-30,Other,East Coast
+Brad Culpepper,Attorney/Former NFL Player,Florida,2,0.9,M,47,34,1969-05-08,Law,East Coast
+Sarah Lacina,Police Officer,Iowa,1,0.95,F,32,34,1984-07-09,Other,Midwest
+Katrina Radke,Olympian,Minnesota,18,0.0,F,46,35,1970-12-17,Other,Midwest
+Simone Nguyen,Diversity Advocate,New York,17,0.0555555555555555,F,25,35,1991-05-31,Other,East Coast
+Patrick Bolton,Small Business Owner,Alabama,16,0.1111111111111111,M,24,35,1992-03-06,Other,South
+Alan Ball,NFL Player,Texas,15,0.1666666666666666,M,31,35,1985-03-29,Other,South
+Roark Luskin,Social Worker,California,14,0.2222222222222222,F,27,35,1989-11-30,Other,West
+Ali Elliott,Celebrity Assistant,California,13,0.2777777777777778,F,24,35,1992-11-13,Other,West
+Jessica Johnston,Nurse Practitioner,Kentucky,12,0.3333333333333333,F,29,35,1987-04-05,Healthcare,South
+Desi Williams,Physical Therapist,Virginia,11,0.3888888888888888,F,27,35,1989-06-14,Healthcare,East Coast
+Cole Medders,Wilderness Therapy Guide,Arkansas,10,0.4444444444444444,M,24,35,1992-09-18,Other,South
+JP Hilsabeck,Firefighter,California,9,0.5,M,28,35,1988-06-22,Other,West
+Joe Mena,Probation Officer,Connecticut,8,0.5555555555555556,M,34,35,1983-03-15,Other,East Coast
+Lauren Rimmer,Fisherwoman,North Carolina,7,0.6111111111111112,F,35,35,1982-03-06,Other,East Coast
+Ashley Nolan,Lifeguard,Florida,6,0.6666666666666667,F,26,35,1990-09-17,Other,East Coast
+Mike Zahalsky,Urologist,Florida,5,0.7222222222222222,M,43,35,1973-09-11,Other,East Coast
+Devon Pinto,Surf Instructor,California,4,0.7777777777777778,M,24,35,1993-03-06,Other,West
+Ryan Ulrich,Bellhop,New Jersey,3,0.8333333333333334,M,23,35,1993-09-08,Other,East Coast
+Chrissy Hofbeck,Actuary,New Jersey,2,0.8888888888888888,F,46,35,1971-03-09,Other,East Coast
+Ben Driebergen,Marine,Idaho,1,0.9444444444444444,M,34,35,1983-01-01,Other,West
+Stephanie Gonzalez,Graphic Saleswoman,Florida,20,0.0,F,26,36,1991-04-22,Business,East Coast
+Jacob Derwin,Music Teacher,New York,19,0.05,M,22,36,1995-06-01,Education,East Coast
+Morgan Ricke,Marine Animal Trainer,Florida,18,0.0999999999999999,F,29,36,1987-08-06,Other,East Coast
+Brendan Shapiro,Physical Education Teacher,Virginia,17,0.15,M,41,36,1976-06-17,Education,East Coast
+Stephanie Johnson,Yoga Instructor,Illinois,16,0.1999999999999999,F,34,36,1982-09-10,Other,Midwest
+James Lim,Business Analyst,New York,15,0.25,M,24,36,1993-03-17,Other,East Coast
+Bradley Kleihege,Law Student,California,14,0.3,M,26,36,1990-09-14,Student,West
+Chris Noble,Male Model,New York,13,0.35,M,27,36,1989-12-04,Other,East Coast
+Libby Vincek,Social Media Strategist,Tennessee,12,0.4,F,24,36,1992-08-24,Other,South
+Desiree Afuye,Student,New York,11,0.4499999999999999,F,21,36,1996-02-03,Student,East Coast
+Jenna Bowman,Advertising Account Executive,California,10,0.5,F,23,36,1993-11-10,Other,West
+Michael Yerger,Real Estate Agent,California,9,0.55,M,18,36,1998-07-20,Business,West
+Chelsea Townsend,EMT/Pro Cheerleader,California,8,0.6,F,24,36,1992-05-25,Other,West
+Kellyn Bechtold,Career Counselor,Colorado,7,0.65,F,31,36,1986-11-20,Other,West
+Sebastian Noel,Fishing Guide,Florida,6,0.7,M,22,36,1994-07-20,Other,East Coast
+Donathan Hurley,Caretaker,Kentucky,5,0.75,M,26,36,1991-07-19,Other,South
+Angela Perkins,Army Veteran,Ohio,4,0.8,F,42,36,1974-11-02,Other,Midwest
+Laurel Johnson,Financial Consultant,Minnesota,3,0.85,F,29,36,1988-02-29,Other,Midwest
+Domenick Abbate,Construction Supervisor,New York,2,0.9,M,38,36,1978-10-31,Other,East Coast
+Wendell Holland,Furniture Company Owner,Pennsylvania,1,0.95,M,33,36,1984-03-08,Other,East Coast
+Pat Cusack,Maintenance Manager,New York,20,0.0,M,41,37,1977-02-25,Other,East Coast
+Jessica Peet,Waitress,Florida,19,0.05,F,19,37,1998-10-22,Other,East Coast
+Jeremy Crawford,Attorney,South Carolina,18,0.0999999999999999,M,40,37,1978-04-26,Law,East Coast
+Bi Nguyen,Mixed Martial Arts Fighter,Texas,17,0.15,F,28,37,1989-10-30,Other,South
+Natalia Azoqa,Industrial Engineer,California,16,0.1999999999999999,F,25,37,1992-04-02,Engineering/Technical,West
+Natalie Cole,Publishing CEO,California,15,0.25,F,57,37,1961-02-26,Other,West
+Lyrsa Torres,Airline Agent,Massachusetts,14,0.3,F,36,37,1981-09-12,Other,East Coast
+Elizabeth Olson,Kitchen Staff Member,Texas,13,0.35,F,31,37,1987-01-22,Other,South
+John Hennigan,Professional Wrestler,California,12,0.4,M,38,37,1979-10-03,Other,West
+Dan Rengering,S.W.A.T. Officer,Florida,11,0.4499999999999999,M,27,37,1990-04-07,Other,East Coast
+Alec Merlino,Bartender,California,10,0.5,M,24,37,1993-10-15,Hospitality,West
+Carl Boudreaux,Truck Driver,Texas,9,0.55,M,41,37,1976-10-29,Other,South
+Gabby Pascuzzi,Technical Writer,Florida,8,0.6,F,25,37,1993-03-23,Other,East Coast
+Christian Hubicki,Robotics Scientist,Florida,7,0.65,M,32,37,1985-12-06,Other,East Coast
+Davie Rickenbacker,Social Media Manager,South Carolina,6,0.7,M,30,37,1987-09-14,Other,East Coast
+Alison Raybould,Physician,North Carolina,5,0.75,F,28,37,1989-07-12,Other,East Coast
+Kara Kay,Realtor,California,4,0.8,F,30,37,1987-11-20,Other,West
+Angelina Keeley,Financial Consultant,Nevada,3,0.85,F,28,37,1989-07-06,Other,West
+Mike White,Filmmaker,California,2,0.9,M,47,37,1970-06-28,Other,West
+Nick Wilson,Public Defender,Kentucky,1,0.95,M,27,37,1990-06-11,Other,South
+Reem Daly,Sales Representative,Virginia,18,0.0,F,46,38,1971-07-08,Business,East Coast
+Keith Sowell,Pre-Med Student,North Carolina,17,0.0555555555555555,M,19,38,1998-07-16,Student,East Coast
+Aubry Bracco,Marketing Director,California,16,0.1111111111111111,F,32,38,1985-11-14,Other,West
+Wendy Diaz,Small Business Owner,California,15,0.1666666666666666,F,25,38,1992-09-26,Other,West
+Joe Anglim,Multimedia Artist,Utah,14,0.2222222222222222,M,29,38,1988-09-30,Arts,West
+Eric Hafemann,Firefighter,California,13,0.2777777777777778,M,35,38,1983-04-13,Other,West
+Julia Carter,Medical Assistant,Maryland,12,0.3333333333333333,F,25,38,1993-04-18,Other,East Coast
+David Wright,Television Writer,California,11,0.3888888888888888,M,44,38,1974-02-06,Other,West
+Kelley Wentworth,Marketing Manager,Washington,10,0.4444444444444444,F,31,38,1986-06-07,Other,West
+Wardog DaSilva,Law Student/Former Military,California,9,0.5,M,38,38,1980-03-31,Student,West
+Ron Clark,Teacher,Georgia,8,0.5555555555555556,M,46,38,1971-10-24,Education,East Coast
+Aurora McCreary,Divorce Attorney,Florida,7,0.6111111111111112,F,32,38,1985-12-21,Law,East Coast
+Victoria Baamonde,Waitress,New York,6,0.6666666666666667,F,23,38,1994-07-18,Other,East Coast
+Lauren O'Connell,Student,California,5,0.7222222222222222,F,21,38,1996-10-25,Student,West
+Rick Devens,Morning News Anchor,Virginia,4,0.7777777777777778,M,33,38,1984-04-05,Other,East Coast
+Julie Rosenberg,Toymaker,New York,3,0.8333333333333334,F,46,38,1971-10-09,Other,East Coast
+Gavin Whitson,YMCA Program Director,Tennessee,2,0.8888888888888888,M,23,38,1994-07-20,Other,South
+Chris Underwood,District Sales Manager,South Carolina,1,0.9444444444444444,M,25,38,1992-10-06,Business,East Coast
+Ronnie Bardah,Poker Player,Nevada,20,0.0,M,35,39,1982-08-29,Other,West
+Molly Byman,Law Student,North Carolina,19,0.05,F,27,39,1990-10-05,Student,East Coast
+Vince Moua,Admissions Counselor,California,18,0.0999999999999999,M,27,39,1991-04-09,Other,West
+Chelsea Walker,Digital Content Creator,California,17,0.15,F,26,39,1992-03-10,Other,West
+Tom Laidlaw,Former NHL Player,Connecticut,16,0.1999999999999999,M,60,39,1958-04-15,Other,East Coast
+Jason Linden,Personal Injury Attorney,New York,15,0.25,M,32,39,1986-08-04,Law,East Coast
+Jack Nichting,Grad Student,Virginia,14,0.3,M,23,39,1995-06-05,Student,East Coast
+Kellee Kim,MBA Student,Pennsylvania,13,0.35,F,29,39,1989-10-17,Student,East Coast
+Jamal Shipman,College Administrator,Rhode Island,12,0.4,M,33,39,1985-05-09,Other,East Coast
+Aaron Meredith,Gym Owner,Rhode Island,11,0.4499999999999999,M,36,39,1982-12-16,Other,East Coast
+Missy Byrd,Air Force Veteran,Washington,10,0.5,F,24,39,1994-07-01,Other,West
+Elizabeth Beisel,Olympic Medalist,Rhode Island,9,0.55,F,26,39,1992-08-18,Other,East Coast
+Karishma Patel,Personal Injury Attorney,Texas,8,0.6,F,37,39,1981-12-07,Law,South
+Elaine Stott,Factory Worker,Kentucky,7,0.65,F,41,39,1978-01-13,Arts,South
+Dan Spilo,Talent Manager,California,6,0.7,M,48,39,1970-06-28,Other,West
+Janet Carbin,Chief Lifeguard,Florida,5,0.75,F,59,39,1959-06-15,Other,East Coast
+Lauren Beck,Nanny,California,4,0.8,F,28,39,1989-11-16,Other,West
+Noura Salman,Entrepreneur,Maryland,3,0.85,F,36,39,1982-08-23,Business,East Coast
+Dean Kowalski,Tech Sales,New York,2,0.9,M,28,39,1990-04-12,Business,East Coast
+Tommy Sheehan,4th Grade Teacher,New York,1,0.95,M,26,39,1992-10-26,Education,East Coast
+Amber Mariano,Director of Marketing & Communications,Florida,20,0.0,F,40,40,1978-08-11,Other,East Coast
+Danni Boatwright,Sideline Chic Owner,Kansas,19,0.05,F,43,40,1975-07-13,Other,Midwest
+Ethan Zohn,Keynote Speaker/Social Entrepreneur,New Hampshire,18,0.0999999999999999,M,45,40,1973-11-12,Business,East Coast
+Rob Mariano,Construction Worker,Florida,17,0.15,M,43,40,1975-12-25,Other,East Coast
+Parvati Shallow,Life Coach/Speaker/Yoga Teacher,California,16,0.1999999999999999,F,36,40,1982-09-21,Education,West
+Sandra Diaz-Twine,Case Manager,Florida,15,0.25,F,44,40,1974-07-30,Other,East Coast
+Yul Kwon,Product Management,California,14,0.3,M,44,40,1975-02-14,Other,West
+Wendell Holland,Furniture Designer,Pennsylvania,13,0.35,M,35,40,1984-03-08,Other,East Coast
+Adam Klein,Host/Keynote Speaker,California,12,0.4,M,28,40,1991-01-15,Other,West
+Tyson Apostol,Former Pro Cyclist/Shop Manager,Arizona,11,0.4499999999999999,M,39,40,1979-06-17,Other,West
+Sophie Clarke,Healthcare Consultant,California,10,0.5,F,29,40,1989-07-10,Healthcare,West
+Kim Spradlin-Wolfe,Interior Designer,Texas,9,0.55,F,36,40,1983-01-30,Other,South
+Jeremy Collins,Firefighter,Massachusetts,8,0.6,M,41,40,1978-04-16,Other,East Coast
+Nick Wilson,Attorney,Kentucky,7,0.65,M,28,40,1990-06-11,Law,South
+Denise Stapley,Sex Therapist,Iowa,6,0.7,F,48,40,1971-01-01,Healthcare,Midwest
+Ben Driebergen,Real Estate Agent/Stay-at-home Dad,Idaho,5,0.75,M,36,40,1983-01-01,Business,West
+Sarah Lacina,Police Officer,Iowa,4,0.8,F,35,40,1984-07-09,Other,Midwest
+Michele Fitzgerald,Business Development Manager,New Jersey,3,0.85,F,29,40,1990-05-05,Other,East Coast
+Natalie Anderson,CrossFit Trainer,New Jersey,2,0.9,F,33,40,1986-04-11,Other,East Coast
+Tony Vlachos,Police Officer,New Jersey,1,0.95,M,45,40,1973-09-10,Other,East Coast
+Eric Abraham,Cyber Security Analyst,Texas,18,0.0,M,51,41,1970-06-10,Other,South
+Sara Wilson,Healthcare Consultant,Massachusetts,17,0.0555555555555555,F,24,41,1997-06-28,Healthcare,East Coast
+David Voce,Neurosurgeon,Illinois,16,0.1111111111111111,M,35,41,1986-05-01,Healthcare,Midwest
+Brad Reese,Rancher,Wyoming,15,0.1666666666666666,M,50,41,1971-07-21,Agriculture,West
+JD Robinson,College Student,Oklahoma,14,0.2222222222222222,M,20,41,2001-03-18,Student,South
+Genie Chen,Grocery Clerk,Oregon,13,0.2777777777777778,F,46,41,1975-03-04,Other,West
+Sydney Segal,Law Student,New York,12,0.3333333333333333,F,26,41,1995-07-19,Student,East Coast
+Tiffany Seely,Teacher,New York,11,0.3888888888888888,F,47,41,1973-12-08,Education,East Coast
+Naseer Muttalif,Sales Manager,California,10,0.4444444444444444,M,37,41,1984-06-09,Business,West
+Evvie Jagoda,PhD Student,Massachusetts,9,0.5,N,28,41,1992-10-26,Student,East Coast
+Shan Smith,Pastor,District of Columbia,8,0.5555555555555556,F,34,41,1987-03-11,Other,East Coast
+Liana Wallace,College Student,District of Columbia,7,0.6111111111111112,F,20,41,2000-10-25,Student,East Coast
+Danny McCray,Ex-NFL Player,Texas,6,0.6666666666666667,M,33,41,1988-03-10,Other,South
+Ricard Foyé,Flight Attendant,Washington,5,0.7222222222222222,M,31,41,1989-12-04,Other,West
+Heather Aldret,Stay-at-Home Mom,South Carolina,4,0.7777777777777778,F,52,41,1969-03-01,Other,East Coast
+Xander Hastings,App Developer,Illinois,3,0.8333333333333334,M,21,41,2000-08-11,Business,Midwest
+Deshawn Radden,Medical Student,Florida,2,0.8888888888888888,M,26,41,1995-09-17,Student,East Coast
+Erika Casupanan,Communications Manager,Ontario,1,0.9444444444444444,F,32,41,1989-07-20,Other,Unknown
+Jackson Fox,Healthcare Worker,Texas,18,0.0,M,48,42,1973-08-13,Healthcare,South
+Zach Wurtenberger,Student,Missouri,17,0.0555555555555555,M,22,42,2000-01-26,Student,Midwest
+Marya Sherron,Stay-at-Home Mom,Indiana,16,0.1111111111111111,F,47,42,1974-03-26,Other,Midwest
+Jenny Kim,Creative Director,New York,15,0.1666666666666666,F,43,42,1978-06-30,Other,East Coast
+Swati Goel,Ivy League Student,California,14,0.2222222222222222,F,19,42,2002-03-20,Student,West
+Daniel Strunk,Law Clerk,Connecticut,13,0.2777777777777778,M,30,42,1991-03-26,Other,East Coast
+Lydia Meredith,Waitress,California,12,0.3333333333333333,F,22,42,1999-05-23,Other,West
+Chanelle Howell,Executive Recruiter,New York,11,0.3888888888888888,F,29,42,1992-08-22,Other,East Coast
+Rocksroy Bailey,Stay-at-Home Dad,Nevada,10,0.4444444444444444,M,44,42,1978-01-12,Other,West
+Tori Meehan,Therapist,Arkansas,9,0.5,F,25,42,1996-09-03,Healthcare,South
+Hai Giang,Data Scientist,Louisiana,8,0.5555555555555556,M,29,42,1992-10-09,Other,South
+Drea Wheeler,Fitness Consultant,Quebec,7,0.6111111111111112,F,35,42,1986-08-27,Other,Unknown
+Omar Zaheer,Veterinarian,Ontario,6,0.6666666666666667,M,31,42,1990-10-24,Other,Unknown
+Lindsay Dolashewich,Dietitian,New Jersey,5,0.7222222222222222,F,31,42,1991-02-01,Other,East Coast
+Jonathan Young,Beach Service Company Owner,Alabama,4,0.7777777777777778,M,29,42,1993-01-13,Other,South
+Romeo Escobar,Pageant Coach,California,3,0.8333333333333334,M,37,42,1984-05-10,Education,West
+Mike Turner,Retired Firefighter,New Jersey,2,0.8888888888888888,M,58,42,1963-10-15,Retired,East Coast
+Maryanne Oketch,Seminary Student,Ontario,1,0.9444444444444444,F,24,42,1998-01-01,Student,Unknown
+Morriah Young,Teacher,Pennsylvania,18,0.0,F,28,43,1993-12-03,Education,East Coast
+Justine Brennan,Cyber Security Saleswoman,California,17,0.0555555555555555,F,29,43,1993-01-07,Business,West
+Nneka Ejere,Pharmacist,Texas,16,0.1111111111111111,F,43,43,1979-06-24,Other,South
+Lindsay Carmine,Pediatric Nurse,Pennsylvania,15,0.1666666666666666,F,42,43,1980-01-21,Healthcare,East Coast
+Geo Bustamante,Project Manager,Hawaii,14,0.2222222222222222,M,35,43,1986-08-22,Other,West
+Elie Scott,Clinical Psychologist,Utah,13,0.2777777777777778,F,31,43,1991-04-17,Other,West
+Dwight Moore,Graduate Student,Tennessee,12,0.3333333333333333,M,22,43,2000-08-30,Student,South
+Jeanine Zheng,UX Designer,California,11,0.3888888888888888,F,24,43,1997-12-19,Other,West
+James Jones,Event Planner,Pennsylvania,10,0.4444444444444444,M,37,43,1985-05-07,Other,East Coast
+Ryan Medrano,Warehouse Associate,Texas,9,0.5,M,24,43,1997-08-26,Other,South
+Noelle Lambert,Paralympian,New Hampshire,8,0.5555555555555556,F,25,43,1997-01-24,Other,East Coast
+Sami Layadi,Pet Cremator,Nevada,7,0.6111111111111112,M,19,43,2002-10-13,Other,West
+Cody Assenmacher,Elevator Salesman,Hawaii,6,0.6666666666666667,M,35,43,1986-12-09,Business,West
+Karla Cruz Godoy,Educational Project Manager,Delaware,5,0.7222222222222222,F,28,43,1994-02-19,Other,East Coast
+Jesse Lopez,Political Science PhD,North Carolina,4,0.7777777777777778,M,30,43,1991-11-29,Other,East Coast
+Owen Knight,College Admissions Director,Louisiana,3,0.8333333333333334,M,29,43,1992-07-10,Other,South
+Cassidy Clark,Designer,Texas,2,0.8888888888888888,F,26,43,1996-01-16,Other,South
+Mike Gabler,Heart Valve Specialist,Idaho,1,0.9444444444444444,M,52,43,1970-09-04,Other,West

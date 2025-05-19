@@ -1,6 +1,7 @@
 ---
 title: "Multiple Regression Analysis: Maryland Voter Turnout"
 name: "Chelsea Collier"
+Gpt used in this project: https://chatgpt.com/share/682a860e-8e18-800a-93eb-4f547d844e8d
 ---
 
 # Introduction
@@ -20,7 +21,7 @@ The original dataset contained over 30 columns, but I’ve cleaned and narrowed 
 My main hypotheses are:
 	1.	Contestants in service-related professions (e.g., education, healthcare, hospitality) place higher on average in Survivor
 	2.	Contestants from the East Coast perform better in terms of final placement compared to those from other regions
-	3.	Age Hypothesis: Contestants aged 25 to 35 are more likely to finish higher in the game compared to other age groups
+		3.	Age Hypothesis: Contestants aged 25 to 35 are more likely to finish higher in the game compared to other age groups
 
 #What’s Missing
 	•	Income or education levels of contestants aren’t included, which might add context to occupation-based patterns
@@ -40,10 +41,9 @@ library(corrplot)
 
 ## Load the Data
 ```{r}
-survivor_data <- read_csv("https://github.com/chelsea-collier/jour405_spring25/blob/c728c4d467755b6afb890fac20df0e32827823ba/project/Survivor_Data_402.csv")
-head(md_turnout)
+survivor_data <- read_csv("https://raw.githubusercontent.com/chelsea-collier/jour405_spring25/refs/heads/main/project/Survivor_Data_402.csv")
 ```
-# The Tests You Could Run (gpt used https://chatgpt.com/share/682a860e-8e18-800a-93eb-4f547d844e8d)
+# The Tests You Could Run 
 1. Comparing Mean Placement by Employment Category
 	•	Test: One-way ANOVA or t-test (depending on number of groups)
 	•	Why: I want to see whether contestants in service-related professions (e.g., healthcare, education, hospitality) place higher in Survivor compared to other occupational groups.
@@ -74,5 +74,89 @@ head(md_turnout)
 	•	Use normalized_finish as the dependent variable.
 	•	Include predictors like age, gender, region, and occupation category.
 	
-	5. I would also likle to use a scatterplots to visualize the relationships of variables that may be correlated
+	5. I would also like to use a scatterplots to visualize the relationships of variables that may be correlated
+
+# Create additional variables needed
+```{r}
+
+survivor_data <- survivor_data %>%
+  mutate(service = ifelse(employment_category %in% c("Healthcare", "Education", "Hospitality"), 1, 0),
+         age_group = case_when(
+           age < 25 ~ "<25",
+           age >= 25 & age <= 35 ~ "25–35",
+           age > 35 ~ ">35",
+           TRUE ~ "Unknown"
+         ))
+```
+# Descriptive Statistics
+
+```{r}
+summary(survivor_data$normalized_finish)
+table(survivor_data$employment_category)
+table(survivor_data$region)
+table(survivor_data$age_group)
+```
+
+These statistics provide an overview of contestant placement and distribution across categories.
+
+---
+
+# Test 1: Do Service Occupations Place Higher?
+
+```{r}
+t.test(normalized_finish ~ service, data = survivor_data)
+```
+
+**Interpretation**: There is no statistically significant difference in average placement between service and non-service professions based on normalized finish.
+---
+
+# Test 2: Regional Differences in Placement
+
+```{r}
+anova_region <- aov(normalized_finish ~ region, data = survivor_data)
+summary(anova_region)
+TukeyHSD(anova_region)
+```
+
+**Interpretation**: Regional differences in average placement are not statistically significant across East Coast, Midwest, South and West.
+
+---
+
+# Test 3: Do Contestants Aged 25–35 Perform Best?
+
+```{r}
+anova_age <- aov(normalized_finish ~ age_group, data = survivor_data)
+summary(anova_age)
+TukeyHSD(anova_age)
+```
+
+**Interpretation**: No statistically significant difference in average placement across the three age groups (<25, 25–35, >35).
+---
+
+# Regression Analysis
+
+```{r}
+model <- lm(normalized_finish ~ age + region + employment_category, data = survivor_data)
+summary(model)
+```
+
+**Interpretation**: This model explains little variation in contestant placement. Most predictors i wanted to look into, including age, employment category and region do not have statistically significant effects.
+---
+
+# Visualization: Placement by Age Group
+
+```{r}
+ggplot(survivor_data, aes(x = age_group, y = normalized_finish, fill = age_group)) +
+  geom_boxplot() +
+  labs(title = "Survivor Placement by Age Group", x = "Age Group", y = "Normalized Finish") +
+  theme_minimal()
+```
+Here, we see that the target group 25-35 has a very slightly higher average placement and smaller spread.
+---
+# Story
+
+Headline: Age, Region and Occupation Not Determinants of 'Survivor' Placement
+
+My data analysis disproved my three main hypotheses and showed that there was no statistically significant backing that age, region or occupation effected placement outcomes in the show,. I likely would not write a story about this, due to the fact that I don't think that these not being major factors is newsworthy, but if I did I would want to do further tests looking into gender, race, and number of previous seasons played as determinants of Survivor outcomes. One potential problem with this is that some seasons of survivor only have repeat players, some have both new and old players, and some only new players, so it would be a challenge to figure out how to normalize that data. I would like to speak to some of the former winners to see what about them they felt helped them win most and see if those factors were consistant against other winners. 
+
 

@@ -1,0 +1,45 @@
+---
+title: "Multiple Regression Analysis: Maryland Voter Turnout"
+name: "Chelsea Collier"
+---
+
+# Introduction
+
+For my final project, I am analyzing a dataset that includes all contestants from Seasons 1 through 43 of the reality show Survivor. The dataset covers from Season 1 in 2000 to Season 43 in 2022, and includes demographic details, gameplay outcomes, and personal background information for each contestant.
+
+The original dataset contained over 30 columns, but I’ve cleaned and narrowed it down to the best ones for my research questions. These include:
+	•	profession: the contestant’s occupation, which I categorized into broader employment types such as Healthcare, Education, Business, etc.
+	•	state: used to assign contestants to U.S. regions (East Coast, Midwest, South, West)
+	•	region: derived from state data, this field is key to testing my hypothesis about East Coast performance
+	•	finish and normalized_finish: these represent a contestant’s placement in their season, which is the main outcome variable
+	•	num_season: the season number, which helps track changes across time
+	•	birthdate, age, and gender: optional control variables for further analysis
+
+#Research Questions
+
+My main hypotheses are:
+	1.	Contestants in service-related professions (e.g., education, healthcare, hospitality) place higher on average in Survivor
+	2.	Contestants from the East Coast perform better in terms of final placement compared to those from other regions
+	3.	Age Hypothesis: Contestants aged 25 to 35 are more likely to finish higher in the game compared to other age groups
+
+#What’s Missing
+	•	Income or education levels of contestants aren’t included, which might add context to occupation-based patterns
+	•	A few state entries are missing or ambiguous, which affects accurate regional classification.
+	•	I may also need to explore whether normalized vs. raw finish is the better metric for comparison across seasons with different numbers of contestants
+
+#Questions
+	•	Should I analyze raw finish (finish) or scaled placement (normalized_finish) to compare contestants fairly across seasons?
+	•	Would a binary “Service” vs. “Non-Service” label be better than my broader employment categories
+	•	What statistical tests are best suited for comparing placement across groups with unequal sizes?
+
+```{r setup}
+library(tidyverse)
+#install.packages('corrplot')
+library(corrplot)
+```
+
+## Load the Data
+```{r}
+survivor_data <- read_csv("https://github.com/chelsea-collier/jour405_spring25/blob/c728c4d467755b6afb890fac20df0e32827823ba/project/Survivor_Data_402.csv")
+head(md_turnout)
+```
